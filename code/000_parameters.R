@@ -108,7 +108,7 @@ icon_disagreement_reached <- paste0(icon_ok, " !")
 
 ## . define colors ----
 red_unisante <- "#D91136" ## rgb(217, 17, 54)
-color_txt <- "rouge"
+color_txt <- "red"
 
 green_ok     <- "#5BB951" ## rgb(91, 185, 91)
 
