@@ -167,9 +167,9 @@ list_sections <- c('Z', 'A', 'B', 'C')
 
 label_section_Z_long  <- "Topic : long title"
 label_section_Z       <- "Preamble"
-label_section_A       <- "Title for section A"
-label_section_B       <- "Title for section B"
-label_section_C       <- "Title for section C"
+label_section_A       <- "Section A - title"
+label_section_B       <- "Section B - title"
+label_section_C       <- "Section C - title"
 
 list_labels_sections  <- c(label_section_Z_long, label_section_A, label_section_B, label_section_C)
 
