@@ -7,3 +7,5 @@
 texts_intro
 data
 output
+_xml_for_redcap
+analysis/overall/*.pptx
