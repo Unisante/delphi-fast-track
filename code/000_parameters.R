@@ -16,7 +16,7 @@
 ## 0. general elements --------------------------------------------------------
 ## . paths ---------------------------------------------------------
 
-path_to_my_token <- "C:/Users/ol8094/Documents/_analyses/_tokens/token_delphi_ft_testxml.R" # replace with yours - not used in demo
+path_to_my_token <- "C:/Users/xxx/Documents/_analyses/_tokens/token_delphi_ft_testxml.R" # replace with yours - not used in demo
 
 
 source(path_to_my_token, encoding = 'UTF-8') # returns uri_redcap_your_institution and token_dft2_your_project
@@ -34,7 +34,7 @@ token_dft3 <- token_dft3_testxml
 
 path_texts_intro_local <- here::here('texts_intro')
 
-path_texts_intro_server <- "//file3.intranet.chuv/data3/UNISANTE_DPSP/PROJETS/DELPHI-FT/5-Finalisation & valorisation du dispositif/DELPHI-FT_KitMéthodologique/2023-03-15_TEST_odx/texts_intro" # replace with yours - not used in demo
+path_texts_intro_server <- "//path/to/your/server/texts_intro" # replace with yours - not used in demo
 
 
 
@@ -59,7 +59,7 @@ subtitle_participant <- "Individualised report"
 heading_situation <- "Situation and objectives"
 heading_method <- "Methods"
 heading_toc <- "Table of content {#toc}"
-heading_list_tables <- "Results tables"
+# heading_list_tables <- "Results tables"
 
 heading_participants_characteristics <- "Characteristics of participants"
 
