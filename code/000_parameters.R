@@ -291,7 +291,6 @@ levels_type1 <- levels_type1_en
 
 
 ## . metadata : separator for comments in field_name ----
-# "Enoncé 1 - Commentaire destiné à nuancer ou justifier votre réponse"
 
 # separator_comment_statements <- "destin"
 separator_comment_statements <- " to qualify"
@@ -330,6 +329,7 @@ label_scale        <- "(1) Total disagreement ...\n... Total agreement (9)"
 breaks_gg <- min_scale_delphi:max_scale_delphi
 limits_gg <- c(min_scale_delphi - 1,
                max_scale_delphi + 1)
+
 
 
 
