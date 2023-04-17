@@ -42,7 +42,7 @@ path_texts_intro_server <- "//file3.intranet.chuv/data3/UNISANTE_DPSP/PROJETS/DE
 authors_text <- "Camille Velarde Crézé, Olivier Duperrex - Unisanté"
 
 ## . email_tester ---------------------------------------------------
-email_tester <- 'camille.velarde@unisante.ch'
+email_tester <- c('participant_27@some.email', 'tester_2@some.email')
 
 
 ## . reports titles -----------------------------------------------
