@@ -48,10 +48,6 @@ email_tester <- 'camille.velarde@unisante.ch'
 ## . reports titles -----------------------------------------------
 project_text <- "Fast-track Delphi – TEST of templates"
 
-
-title_overall <- "Templates REDCap : are they working?"  # for overall executive summary 
-subtitle_overall <- "Trying out the templates REDCap 'Fast-track Delphi'"
-
 title_round_2 <-   glue::glue("{project_text} – 2nd round")
 title_round_3 <-   glue::glue("{project_text} – 3rd round")
 
@@ -338,6 +334,19 @@ limits_gg <- c(min_scale_delphi - 1,
 
 
 
+
+
+
+## 4. elements for executive summary --------------------------------
+title_overall <- "Templates REDCap : are they working?"  # for overall executive summary 
+subtitle_overall <- "Trying out the templates REDCap 'Fast-track Delphi'"
+
+## . statement_numbers_in_dft2_to_keep_for_execsummary ----
+## some of the statements of round 2 have been refined in dft3, so are not kept in executive summary
+## update this line after round 2 is finished
+
+statement_numbers_in_dft2_to_keep_for_execsummary <- ""
+# statement_numbers_in_dft2_to_keep_for_execsummary <- c(4, 11, 18)
 
 
 
