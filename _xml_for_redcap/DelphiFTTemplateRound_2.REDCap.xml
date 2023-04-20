@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="https://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="Delphi-FT template round 2" AsOfDateTime="2023-03-31T15:30:59" CreationDateTime="2023-03-31T15:30:59" SourceSystem="REDCap" SourceSystemVersion="13.1.3">
+<Study OID="Project.DelphiFTTemplateRound2">
+<GlobalVariables>
+	<StudyName>Delphi-FT template round 2</StudyName>
+	<StudyDescription>This file contains the metadata, events, and data for REDCap project "Delphi-FT template round 2".</StudyDescription>
+	<ProtocolName>Delphi-FT template round 2</ProtocolName>
+	<redcap:RecordAutonumberingEnabled>1</redcap:RecordAutonumberingEnabled>
+	<redcap:CustomRecordLabel></redcap:CustomRecordLabel>
+	<redcap:SecondaryUniqueField></redcap:SecondaryUniqueField>
+	<redcap:SchedulingEnabled>0</redcap:SchedulingEnabled>
+	<redcap:SurveysEnabled>1</redcap:SurveysEnabled>
+	<redcap:SurveyInvitationEmailField></redcap:SurveyInvitationEmailField>
+	<redcap:MyCapEnabled>0</redcap:MyCapEnabled>
+	<redcap:Purpose>2</redcap:Purpose>
+	<redcap:PurposeOther>7</redcap:PurposeOther>
+	<redcap:ProjectNotes>Développement méthodologique</redcap:ProjectNotes>
+	<redcap:MissingDataCodes></redcap:MissingDataCodes>
+	<redcap:ProtectedEmailMode>0</redcap:ProtectedEmailMode>
+	<redcap:ProtectedEmailModeCustomText></redcap:ProtectedEmailModeCustomText>
+	<redcap:ProtectedEmailModeTrigger>ALL</redcap:ProtectedEmailModeTrigger>
+	<redcap:ProtectedEmailModeLogo></redcap:ProtectedEmailModeLogo>
+	<redcap:SurveysGroup>
+		<redcap:Surveys form_name="round_2_equestionnaire" title="&quot;Insert here the title of your study&quot;: a fast-track Delphi process (e-questionnaire for step 2)" instructions="&lt;p&gt;You may already have taken part in the first step of this &lt;em&gt;fast-track Delphi&lt;/em&gt; process, in the form of a brainstorming session according to an adapted version of the nominal group technique on MM.DD, and we thank you for that.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This questionnaire is the second step of this &lt;em&gt;fast-track Delphi&lt;/em&gt; process. It contains XX statements and questions divided into X sections. It should take you between XX and XX minutes to complete.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If needed, you can always go back to the previous page. Please leave your comments at the end of each statement, in case you want to qualify or justify your answer. You can also suggest additional statements or ask questions at the end of each section. Your answers will be treated with strict confidentiality.&lt;/p&gt;
+&lt;p&gt;If you are not familiar with certain aspects of the topic, you can always refer to the key documents sent to you by e-mail.&lt;/p&gt;
+&lt;p&gt;In case of technical problems or any other question related to the project, please do not hesitate to contact us at xxx.xxx@xxx.xx.&lt;/p&gt;
+&lt;p&gt;We thank you in advance!&lt;/p&gt;" offline_instructions="" acknowledgement="&lt;p&gt;&lt;strong&gt;Thank you very much for completing this questionnaire.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Your answers will now be analyzed according to strict confidentiality criteria. In a few days you will receive a new link to the questionnaire of the 3rd step of this &lt;em&gt;fast-track Delphi&lt;/em&gt; process.&lt;/p&gt;
+&lt;p&gt;In the meantime, if you have any questions about the project, please do not hesitate to contact us at xxx.xxx@xxx.xx.&lt;/p&gt;
+&lt;p&gt;We wish you a very nice day!&lt;/p&gt;" stop_action_acknowledgement="" stop_action_delete_response="0" question_by_section="1" display_page_number="1" question_auto_numbering="0" survey_enabled="1" save_and_return="0" save_and_return_code_bypass="0" logo="" hide_title="0" view_results="0" min_responses_view_results="10" check_diversity_view_results="0" end_survey_redirect_url="" survey_expiration="" promis_skip_question="0" survey_auth_enabled_single="0" edit_completed_response="0" hide_back_button="0" show_required_field_text="1" confirmation_email_subject="" confirmation_email_content="" confirmation_email_from="" confirmation_email_from_display="" confirmation_email_attach_pdf="0" confirmation_email_attachment="" text_to_speech="0" text_to_speech_language="en" end_survey_redirect_next_survey="0" end_survey_redirect_next_survey_logic="" theme="" text_size="1" font_family="16" theme_text_buttons="" theme_bg_page="" theme_text_title="" theme_bg_title="" theme_text_sectionheader="" theme_bg_sectionheader="" theme_text_question="" theme_bg_question="" enhanced_choices="0" repeat_survey_enabled="0" repeat_survey_btn_text="" repeat_survey_btn_location="HIDDEN" response_limit="" response_limit_include_partials="1" response_limit_custom_text="&lt;p&gt;Thank you for your interest; however, the survey is closed because the maximum number of responses has been reached.&lt;/p&gt;" survey_time_limit_days="" survey_time_limit_hours="" survey_time_limit_minutes="" email_participant_field="dft2_0_email" end_of_survey_pdf_download="0" pdf_save_to_field="" pdf_save_to_event_id="" pdf_save_translated="0" pdf_auto_archive="0" pdf_econsent_version="" pdf_econsent_type="" pdf_econsent_firstname_field="" pdf_econsent_firstname_event_id="" pdf_econsent_lastname_field="" pdf_econsent_lastname_event_id="" pdf_econsent_dob_field="" pdf_econsent_dob_event_id="" pdf_econsent_allow_edit="1" pdf_econsent_signature_field1="" pdf_econsent_signature_field2="" pdf_econsent_signature_field3="" pdf_econsent_signature_field4="" pdf_econsent_signature_field5="" survey_width_percent="" survey_show_font_resize="1" survey_btn_text_prev_page="" survey_btn_text_next_page="" survey_btn_text_submit="" survey_btn_hide_submit="0" survey_btn_hide_submit_logic=""/>
+	</redcap:SurveysGroup>
+	<redcap:UserRolesGroup>
+		<redcap:UserRoles role_name="Project manager" unique_role_name="U-873C9MCXFK" lock_record="0" lock_record_multiform="0" lock_record_customize="0" data_export_tool="" data_export_instruments="[round_2_equestionnaire,1]" data_import_tool="0" data_comparison_tool="0" data_logging="0" file_repository="1" double_data="0" user_rights="1" data_access_groups="1" graphical="1" reports="1" design="1" alerts="1" calendar="1" data_entry="[round_2_equestionnaire,1]" api_export="1" api_import="0" mobile_app="0" mobile_app_download_data="0" record_create="1" record_rename="0" record_delete="0" dts="0" participants="1" data_quality_design="0" data_quality_execute="0" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="0"/>
+	</redcap:UserRolesGroup>
+</GlobalVariables>
+<MetaDataVersion OID="Metadata.DelphiFTTemplateRound2_2023-03-31_1530" Name="Delphi-FT template round 2" redcap:RecordIdField="record_id">
+	<FormDef OID="Form.round_2_equestionnaire" Name="Round 2 e-questionnaire" Repeating="No" redcap:FormName="round_2_equestionnaire">
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.record_id" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_0_gender" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_0_job" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_z_s1_type1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_z_s1_type1_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_z_s2_type2" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_z_s2_comment" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_z_s3_type3___1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_z_s3_type3_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_z_comment" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_a_s4_type1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_a_s4_type1_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_a_s5_type1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_a_s5_type1_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_a_s6_type2" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_a_s6_comment" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_a_s7_type2" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_a_s7_comment" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_a_s8_type3___1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_a_s8_type3_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_a_s9_type3___1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_a_s9_type3_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_a_comment" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_b_s10_type1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_b_s10_type1_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_b_s11_type1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_b_s11_type1_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_b_s12_type2" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_b_s12_comment" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_b_s13_type2" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_b_s13_comment" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_b_s14_type3___1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_b_s14_type3_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_b_s15_type3___1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_b_s15_type3_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_b_comment" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_c_s16_type1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_c_s16_type1_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_c_s17_type1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_c_s17_type1_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_c_s18_type2" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_c_s18_comment" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_c_s19_type2" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_c_s19_comment" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_c_s20_type3___1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_c_s20_type3_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_c_s21_type3___1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_c_s21_type3_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.dft2_c_comment" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_2_equestionnaire.round_2_equestionnaire_complete" Mandatory="No"/>
+	</FormDef>
+	<ItemGroupDef OID="round_2_equestionnaire.record_id" Name="Round 2 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="record_id" Mandatory="No" redcap:Variable="record_id"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_0_gender" Name="This section aims to capture the characteristics that are essential to the description of our panel of experts/participants." Repeating="No">
+		<ItemRef ItemOID="dft2_0_gender" Mandatory="Yes" redcap:Variable="dft2_0_gender"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_0_job" Name="Round 2 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft2_0_job" Mandatory="Yes" redcap:Variable="dft2_0_job"/>
+		<ItemRef ItemOID="dft2_0_job_o" Mandatory="No" redcap:Variable="dft2_0_job_o"/>
+		<ItemRef ItemOID="dft2_0_joblang" Mandatory="Yes" redcap:Variable="dft2_0_joblang"/>
+		<ItemRef ItemOID="dft2_0_email" Mandatory="Yes" redcap:Variable="dft2_0_email"/>
+		<ItemRef ItemOID="dft2_0_conflicts" Mandatory="Yes" redcap:Variable="dft2_0_conflicts"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_z_s1_type1" Name="PREAMBLE
+
+Statement 1: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." Repeating="No">
+		<ItemRef ItemOID="dft2_z_s1_type1" Mandatory="Yes" redcap:Variable="dft2_z_s1_type1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_z_s1_type1_no_op" Name="Round 2 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft2_z_s1_type1_no_op" Mandatory="No" redcap:Variable="dft2_z_s1_type1_no_op"/>
+		<ItemRef ItemOID="dft2_z_s1_type1_em" Mandatory="No" redcap:Variable="dft2_z_s1_type1_em"/>
+		<ItemRef ItemOID="dft2_z_s1_comment" Mandatory="No" redcap:Variable="dft2_z_s1_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_z_s2_type2" Name=" " Repeating="No">
+		<ItemRef ItemOID="dft2_z_s2_type2" Mandatory="Yes" redcap:Variable="dft2_z_s2_type2"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_z_s2_comment" Name="Round 2 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft2_z_s2_comment" Mandatory="No" redcap:Variable="dft2_z_s2_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_z_s3_type3___1" Name=" " Repeating="No">
+		<ItemRef ItemOID="dft2_z_s3_type3___1" Mandatory="Yes" redcap:Variable="dft2_z_s3_type3"/>
+		<ItemRef ItemOID="dft2_z_s3_type3___2" Mandatory="Yes" redcap:Variable="dft2_z_s3_type3"/>
+		<ItemRef ItemOID="dft2_z_s3_type3___3" Mandatory="Yes" redcap:Variable="dft2_z_s3_type3"/>
+		<ItemRef ItemOID="dft2_z_s3_type3___4" Mandatory="Yes" redcap:Variable="dft2_z_s3_type3"/>
+		<ItemRef ItemOID="dft2_z_s3_type3___5" Mandatory="Yes" redcap:Variable="dft2_z_s3_type3"/>
+		<ItemRef ItemOID="dft2_z_s3_type3___6" Mandatory="Yes" redcap:Variable="dft2_z_s3_type3"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_z_s3_type3_no_op" Name="Round 2 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft2_z_s3_type3_no_op" Mandatory="No" redcap:Variable="dft2_z_s3_type3_no_op"/>
+		<ItemRef ItemOID="dft2_z_s3_type3_em" Mandatory="No" redcap:Variable="dft2_z_s3_type3_em"/>
+		<ItemRef ItemOID="dft2_z_s3_choice" Mandatory="No" redcap:Variable="dft2_z_s3_choice"/>
+		<ItemRef ItemOID="dft2_z_s3_choice_msg" Mandatory="No" redcap:Variable="dft2_z_s3_choice_msg"/>
+		<ItemRef ItemOID="dft2_z_s3_comment" Mandatory="No" redcap:Variable="dft2_z_s3_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_z_comment" Name=" " Repeating="No">
+		<ItemRef ItemOID="dft2_z_comment" Mandatory="No" redcap:Variable="dft2_z_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_a_s4_type1" Name="SECTION A: &quot;Insert here the title of your section A&quot;
+
+This section of the e-questionnaire contains statements related to XXX.
+
+
+Statement 4: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." Repeating="No">
+		<ItemRef ItemOID="dft2_a_s4_type1" Mandatory="Yes" redcap:Variable="dft2_a_s4_type1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_a_s4_type1_no_op" Name="Round 2 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft2_a_s4_type1_no_op" Mandatory="No" redcap:Variable="dft2_a_s4_type1_no_op"/>
+		<ItemRef ItemOID="dft2_a_s4_type1_em" Mandatory="No" redcap:Variable="dft2_a_s4_type1_em"/>
+		<ItemRef ItemOID="dft2_a_s4_comment" Mandatory="No" redcap:Variable="dft2_a_s4_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_a_s5_type1" Name="Statement 5: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." Repeating="No">
+		<ItemRef ItemOID="dft2_a_s5_type1" Mandatory="Yes" redcap:Variable="dft2_a_s5_type1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_a_s5_type1_no_op" Name="Round 2 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft2_a_s5_type1_no_op" Mandatory="No" redcap:Variable="dft2_a_s5_type1_no_op"/>
+		<ItemRef ItemOID="dft2_a_s5_type1_em" Mandatory="No" redcap:Variable="dft2_a_s5_type1_em"/>
+		<ItemRef ItemOID="dft2_a_s5_comment" Mandatory="No" redcap:Variable="dft2_a_s5_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_a_s6_type2" Name=" " Repeating="No">
+		<ItemRef ItemOID="dft2_a_s6_type2" Mandatory="Yes" redcap:Variable="dft2_a_s6_type2"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_a_s6_comment" Name="Round 2 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft2_a_s6_comment" Mandatory="No" redcap:Variable="dft2_a_s6_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_a_s7_type2" Name=" " Repeating="No">
+		<ItemRef ItemOID="dft2_a_s7_type2" Mandatory="Yes" redcap:Variable="dft2_a_s7_type2"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_a_s7_comment" Name="Round 2 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft2_a_s7_comment" Mandatory="No" redcap:Variable="dft2_a_s7_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_a_s8_type3___1" Name=" " Repeating="No">
+		<ItemRef ItemOID="dft2_a_s8_type3___1" Mandatory="Yes" redcap:Variable="dft2_a_s8_type3"/>
+		<ItemRef ItemOID="dft2_a_s8_type3___2" Mandatory="Yes" redcap:Variable="dft2_a_s8_type3"/>
+		<ItemRef ItemOID="dft2_a_s8_type3___3" Mandatory="Yes" redcap:Variable="dft2_a_s8_type3"/>
+		<ItemRef ItemOID="dft2_a_s8_type3___4" Mandatory="Yes" redcap:Variable="dft2_a_s8_type3"/>
+		<ItemRef ItemOID="dft2_a_s8_type3___5" Mandatory="Yes" redcap:Variable="dft2_a_s8_type3"/>
+		<ItemRef ItemOID="dft2_a_s8_type3___6" Mandatory="Yes" redcap:Variable="dft2_a_s8_type3"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_a_s8_type3_no_op" Name="Round 2 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft2_a_s8_type3_no_op" Mandatory="No" redcap:Variable="dft2_a_s8_type3_no_op"/>
+		<ItemRef ItemOID="dft2_a_s8_type3_em" Mandatory="No" redcap:Variable="dft2_a_s8_type3_em"/>
+		<ItemRef ItemOID="dft2_a_s8_choice" Mandatory="No" redcap:Variable="dft2_a_s8_choice"/>
+		<ItemRef ItemOID="dft2_a_s8_choice_msg" Mandatory="No" redcap:Variable="dft2_a_s8_choice_msg"/>
+		<ItemRef ItemOID="dft2_a_s8_comment" Mandatory="No" redcap:Variable="dft2_a_s8_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_a_s9_type3___1" Name=" " Repeating="No">
+		<ItemRef ItemOID="dft2_a_s9_type3___1" Mandatory="Yes" redcap:Variable="dft2_a_s9_type3"/>
+		<ItemRef ItemOID="dft2_a_s9_type3___2" Mandatory="Yes" redcap:Variable="dft2_a_s9_type3"/>
+		<ItemRef ItemOID="dft2_a_s9_type3___3" Mandatory="Yes" redcap:Variable="dft2_a_s9_type3"/>
+		<ItemRef ItemOID="dft2_a_s9_type3___4" Mandatory="Yes" redcap:Variable="dft2_a_s9_type3"/>
+		<ItemRef ItemOID="dft2_a_s9_type3___5" Mandatory="Yes" redcap:Variable="dft2_a_s9_type3"/>
+		<ItemRef ItemOID="dft2_a_s9_type3___6" Mandatory="Yes" redcap:Variable="dft2_a_s9_type3"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_a_s9_type3_no_op" Name="Round 2 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft2_a_s9_type3_no_op" Mandatory="No" redcap:Variable="dft2_a_s9_type3_no_op"/>
+		<ItemRef ItemOID="dft2_a_s9_type3_em" Mandatory="No" redcap:Variable="dft2_a_s9_type3_em"/>
+		<ItemRef ItemOID="dft2_a_s9_choice" Mandatory="No" redcap:Variable="dft2_a_s9_choice"/>
+		<ItemRef ItemOID="dft2_a_s9_choice_msg" Mandatory="No" redcap:Variable="dft2_a_s9_choice_msg"/>
+		<ItemRef ItemOID="dft2_a_s9_comment" Mandatory="No" redcap:Variable="dft2_a_s9_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_a_comment" Name=" " Repeating="No">
+		<ItemRef ItemOID="dft2_a_comment" Mandatory="No" redcap:Variable="dft2_a_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_b_s10_type1" Name="SECTION B: &quot;Insert here the title of your section B&quot;
+
+This section of the e-questionnaire contains statements related to XXX.
+
+
+Statement 10: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." Repeating="No">
+		<ItemRef ItemOID="dft2_b_s10_type1" Mandatory="Yes" redcap:Variable="dft2_b_s10_type1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_b_s10_type1_no_op" Name="Round 2 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft2_b_s10_type1_no_op" Mandatory="No" redcap:Variable="dft2_b_s10_type1_no_op"/>
+		<ItemRef ItemOID="dft2_b_s10_type1_em" Mandatory="No" redcap:Variable="dft2_b_s10_type1_em"/>
+		<ItemRef ItemOID="dft2_b_s10_comment" Mandatory="No" redcap:Variable="dft2_b_s10_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_b_s11_type1" Name="Statement 11: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." Repeating="No">
+		<ItemRef ItemOID="dft2_b_s11_type1" Mandatory="Yes" redcap:Variable="dft2_b_s11_type1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_b_s11_type1_no_op" Name="Round 2 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft2_b_s11_type1_no_op" Mandatory="No" redcap:Variable="dft2_b_s11_type1_no_op"/>
+		<ItemRef ItemOID="dft2_b_s11_type1_em" Mandatory="No" redcap:Variable="dft2_b_s11_type1_em"/>
+		<ItemRef ItemOID="dft2_b_s11_comment" Mandatory="No" redcap:Variable="dft2_b_s11_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_b_s12_type2" Name=" " Repeating="No">
+		<ItemRef ItemOID="dft2_b_s12_type2" Mandatory="Yes" redcap:Variable="dft2_b_s12_type2"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_b_s12_comment" Name="Round 2 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft2_b_s12_comment" Mandatory="No" redcap:Variable="dft2_b_s12_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_b_s13_type2" Name=" " Repeating="No">
+		<ItemRef ItemOID="dft2_b_s13_type2" Mandatory="Yes" redcap:Variable="dft2_b_s13_type2"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_b_s13_comment" Name="Round 2 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft2_b_s13_comment" Mandatory="No" redcap:Variable="dft2_b_s13_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_b_s14_type3___1" Name=" " Repeating="No">
+		<ItemRef ItemOID="dft2_b_s14_type3___1" Mandatory="Yes" redcap:Variable="dft2_b_s14_type3"/>
+		<ItemRef ItemOID="dft2_b_s14_type3___2" Mandatory="Yes" redcap:Variable="dft2_b_s14_type3"/>
+		<ItemRef ItemOID="dft2_b_s14_type3___3" Mandatory="Yes" redcap:Variable="dft2_b_s14_type3"/>
+		<ItemRef ItemOID="dft2_b_s14_type3___4" Mandatory="Yes" redcap:Variable="dft2_b_s14_type3"/>
+		<ItemRef ItemOID="dft2_b_s14_type3___5" Mandatory="Yes" redcap:Variable="dft2_b_s14_type3"/>
+		<ItemRef ItemOID="dft2_b_s14_type3___6" Mandatory="Yes" redcap:Variable="dft2_b_s14_type3"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_b_s14_type3_no_op" Name="Round 2 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft2_b_s14_type3_no_op" Mandatory="No" redcap:Variable="dft2_b_s14_type3_no_op"/>
+		<ItemRef ItemOID="dft2_b_s14_type3_em" Mandatory="No" redcap:Variable="dft2_b_s14_type3_em"/>
+		<ItemRef ItemOID="dft2_b_s14_choice" Mandatory="No" redcap:Variable="dft2_b_s14_choice"/>
+		<ItemRef ItemOID="dft2_b_s14_choice_msg" Mandatory="No" redcap:Variable="dft2_b_s14_choice_msg"/>
+		<ItemRef ItemOID="dft2_b_s14_comment" Mandatory="No" redcap:Variable="dft2_b_s14_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_b_s15_type3___1" Name=" " Repeating="No">
+		<ItemRef ItemOID="dft2_b_s15_type3___1" Mandatory="Yes" redcap:Variable="dft2_b_s15_type3"/>
+		<ItemRef ItemOID="dft2_b_s15_type3___2" Mandatory="Yes" redcap:Variable="dft2_b_s15_type3"/>
+		<ItemRef ItemOID="dft2_b_s15_type3___3" Mandatory="Yes" redcap:Variable="dft2_b_s15_type3"/>
+		<ItemRef ItemOID="dft2_b_s15_type3___4" Mandatory="Yes" redcap:Variable="dft2_b_s15_type3"/>
+		<ItemRef ItemOID="dft2_b_s15_type3___5" Mandatory="Yes" redcap:Variable="dft2_b_s15_type3"/>
+		<ItemRef ItemOID="dft2_b_s15_type3___6" Mandatory="Yes" redcap:Variable="dft2_b_s15_type3"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_b_s15_type3_no_op" Name="Round 2 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft2_b_s15_type3_no_op" Mandatory="No" redcap:Variable="dft2_b_s15_type3_no_op"/>
+		<ItemRef ItemOID="dft2_b_s15_type3_em" Mandatory="No" redcap:Variable="dft2_b_s15_type3_em"/>
+		<ItemRef ItemOID="dft2_b_s15_choice" Mandatory="No" redcap:Variable="dft2_b_s15_choice"/>
+		<ItemRef ItemOID="dft2_b_s15_choice_msg" Mandatory="No" redcap:Variable="dft2_b_s15_choice_msg"/>
+		<ItemRef ItemOID="dft2_b_s15_comment" Mandatory="No" redcap:Variable="dft2_b_s15_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_b_comment" Name=" " Repeating="No">
+		<ItemRef ItemOID="dft2_b_comment" Mandatory="No" redcap:Variable="dft2_b_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_c_s16_type1" Name="SECTION C: &quot;Insert here the title of your section C&quot;
+
+This section of the e-questionnaire contains statements related to XXX.
+
+
+Statement 16: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." Repeating="No">
+		<ItemRef ItemOID="dft2_c_s16_type1" Mandatory="Yes" redcap:Variable="dft2_c_s16_type1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_c_s16_type1_no_op" Name="Round 2 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft2_c_s16_type1_no_op" Mandatory="No" redcap:Variable="dft2_c_s16_type1_no_op"/>
+		<ItemRef ItemOID="dft2_c_s16_type1_em" Mandatory="No" redcap:Variable="dft2_c_s16_type1_em"/>
+		<ItemRef ItemOID="dft2_c_s16_comment" Mandatory="No" redcap:Variable="dft2_c_s16_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_c_s17_type1" Name="Statement 17: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." Repeating="No">
+		<ItemRef ItemOID="dft2_c_s17_type1" Mandatory="Yes" redcap:Variable="dft2_c_s17_type1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_c_s17_type1_no_op" Name="Round 2 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft2_c_s17_type1_no_op" Mandatory="No" redcap:Variable="dft2_c_s17_type1_no_op"/>
+		<ItemRef ItemOID="dft2_c_s17_type1_em" Mandatory="No" redcap:Variable="dft2_c_s17_type1_em"/>
+		<ItemRef ItemOID="dft2_c_s17_comment" Mandatory="No" redcap:Variable="dft2_c_s17_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_c_s18_type2" Name=" " Repeating="No">
+		<ItemRef ItemOID="dft2_c_s18_type2" Mandatory="Yes" redcap:Variable="dft2_c_s18_type2"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_c_s18_comment" Name="Round 2 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft2_c_s18_comment" Mandatory="No" redcap:Variable="dft2_c_s18_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_c_s19_type2" Name=" " Repeating="No">
+		<ItemRef ItemOID="dft2_c_s19_type2" Mandatory="Yes" redcap:Variable="dft2_c_s19_type2"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_c_s19_comment" Name="Round 2 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft2_c_s19_comment" Mandatory="No" redcap:Variable="dft2_c_s19_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_c_s20_type3___1" Name=" " Repeating="No">
+		<ItemRef ItemOID="dft2_c_s20_type3___1" Mandatory="Yes" redcap:Variable="dft2_c_s20_type3"/>
+		<ItemRef ItemOID="dft2_c_s20_type3___2" Mandatory="Yes" redcap:Variable="dft2_c_s20_type3"/>
+		<ItemRef ItemOID="dft2_c_s20_type3___3" Mandatory="Yes" redcap:Variable="dft2_c_s20_type3"/>
+		<ItemRef ItemOID="dft2_c_s20_type3___4" Mandatory="Yes" redcap:Variable="dft2_c_s20_type3"/>
+		<ItemRef ItemOID="dft2_c_s20_type3___5" Mandatory="Yes" redcap:Variable="dft2_c_s20_type3"/>
+		<ItemRef ItemOID="dft2_c_s20_type3___6" Mandatory="Yes" redcap:Variable="dft2_c_s20_type3"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_c_s20_type3_no_op" Name="Round 2 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft2_c_s20_type3_no_op" Mandatory="No" redcap:Variable="dft2_c_s20_type3_no_op"/>
+		<ItemRef ItemOID="dft2_c_s20_type3_em" Mandatory="No" redcap:Variable="dft2_c_s20_type3_em"/>
+		<ItemRef ItemOID="dft2_c_s20_choice" Mandatory="No" redcap:Variable="dft2_c_s20_choice"/>
+		<ItemRef ItemOID="dft2_c_s20_choice_msg" Mandatory="No" redcap:Variable="dft2_c_s20_choice_msg"/>
+		<ItemRef ItemOID="dft2_c_s20_comment" Mandatory="No" redcap:Variable="dft2_c_s20_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_c_s21_type3___1" Name=" " Repeating="No">
+		<ItemRef ItemOID="dft2_c_s21_type3___1" Mandatory="Yes" redcap:Variable="dft2_c_s21_type3"/>
+		<ItemRef ItemOID="dft2_c_s21_type3___2" Mandatory="Yes" redcap:Variable="dft2_c_s21_type3"/>
+		<ItemRef ItemOID="dft2_c_s21_type3___3" Mandatory="Yes" redcap:Variable="dft2_c_s21_type3"/>
+		<ItemRef ItemOID="dft2_c_s21_type3___4" Mandatory="Yes" redcap:Variable="dft2_c_s21_type3"/>
+		<ItemRef ItemOID="dft2_c_s21_type3___5" Mandatory="Yes" redcap:Variable="dft2_c_s21_type3"/>
+		<ItemRef ItemOID="dft2_c_s21_type3___6" Mandatory="Yes" redcap:Variable="dft2_c_s21_type3"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_c_s21_type3_no_op" Name="Round 2 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft2_c_s21_type3_no_op" Mandatory="No" redcap:Variable="dft2_c_s21_type3_no_op"/>
+		<ItemRef ItemOID="dft2_c_s21_type3_em" Mandatory="No" redcap:Variable="dft2_c_s21_type3_em"/>
+		<ItemRef ItemOID="dft2_c_s21_choice" Mandatory="No" redcap:Variable="dft2_c_s21_choice"/>
+		<ItemRef ItemOID="dft2_c_s21_choice_msg" Mandatory="No" redcap:Variable="dft2_c_s21_choice_msg"/>
+		<ItemRef ItemOID="dft2_c_s21_comment" Mandatory="No" redcap:Variable="dft2_c_s21_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.dft2_c_comment" Name=" " Repeating="No">
+		<ItemRef ItemOID="dft2_c_comment" Mandatory="No" redcap:Variable="dft2_c_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_2_equestionnaire.round_2_equestionnaire_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="round_2_equestionnaire_complete" Mandatory="No" redcap:Variable="round_2_equestionnaire_complete"/>
+	</ItemGroupDef>
+	<ItemDef OID="record_id" Name="record_id" DataType="text" Length="999" redcap:Variable="record_id" redcap:FieldType="text">
+		<Question><TranslatedText>Record ID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_0_gender" Name="dft2_0_gender" DataType="text" Length="1" redcap:Variable="dft2_0_gender" redcap:FieldType="radio" redcap:SectionHeader="This section aims to capture the characteristics that are essential to the description of our panel of experts/participants." redcap:RequiredField="y">
+		<Question><TranslatedText>Please select your gender:</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_0_gender.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_0_job" Name="dft2_0_job" DataType="text" Length="1" redcap:Variable="dft2_0_job" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Please select the area that best describes your occupation:</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_0_job.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_0_job_o" Name="dft2_0_job_o" DataType="text" Length="999" redcap:Variable="dft2_0_job_o" redcap:FieldType="textarea" redcap:BranchingLogic="[dft2_0_job] = &#039;6&#039;">
+		<Question><TranslatedText>Please specify your answer:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_0_joblang" Name="dft2_0_joblang" DataType="text" Length="1" redcap:Variable="dft2_0_joblang" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Please indicate the geographical area in which you carry out your (main) professional activity:
+</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_0_joblang.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_0_email" Name="dft2_0_email" DataType="text" Length="999" redcap:Variable="dft2_0_email" redcap:FieldType="text" redcap:TextValidationType="email" redcap:FieldNote="This field will be used to create individual and confidential result reports for the 3rd step of the process." redcap:Identifier="y" redcap:RequiredField="y">
+		<Question><TranslatedText>Please indicate your email:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_0_conflicts" Name="dft2_0_conflicts" DataType="text" Length="999" redcap:Variable="dft2_0_conflicts" redcap:FieldType="textarea" redcap:FieldNote="If you have no conflict of interests, please indicate &quot;none&quot;." redcap:RequiredField="y">
+		<Question><TranslatedText>Please indicate any conflict of interests you might have with the issue &quot;insert here your topical target question&quot;:
+</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_z_s1_type1" Name="dft2_z_s1_type1" DataType="text" Length="1" redcap:Variable="dft2_z_s1_type1" redcap:FieldType="radio" redcap:SectionHeader="PREAMBLE
+
+Statement 1: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." redcap:RequiredField="y" redcap:BranchingLogic="[dft2_z_s1_type1_no_op] &lt;&gt; &#039;10&#039;" redcap:MatrixGroupName="dft2_z_s1_mat">
+		<Question><TranslatedText>Statement 1: &quot;Insert here a type-1 question (format: affirmative statement).&quot;</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_z_s1_type1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_z_s1_type1_no_op" Name="dft2_z_s1_type1_no_op" DataType="text" Length="2" redcap:Variable="dft2_z_s1_type1_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_z_s1_type1_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_z_s1_type1_em" Name="dft2_z_s1_type1_em" DataType="text" Length="999" redcap:Variable="dft2_z_s1_type1_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   {dft2_z_s1_type1} {dft2_z_s1_type1_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft2_z_s1_type1}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;{dft2_z_s1_type1_no_op}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_z_s1_comment" Name="dft2_z_s1_comment" DataType="text" Length="999" redcap:Variable="dft2_z_s1_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 1 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_z_s2_type2" Name="dft2_z_s2_type2" DataType="text" Length="1" redcap:Variable="dft2_z_s2_type2" redcap:FieldType="radio" redcap:SectionHeader=" " redcap:RequiredField="y">
+		<Question><TranslatedText>Statement 2: &quot;Insert here a type-2 question (format: open-ended question).&quot;
+
+ Please choose only one answer among the following options.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 2: &quot;Insert here a type-2 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please choose only one answer among the following options.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_z_s2_type2.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_z_s2_comment" Name="dft2_z_s2_comment" DataType="text" Length="999" redcap:Variable="dft2_z_s2_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 2 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_z_s3_type3___1" Name="dft2_z_s3_type3___1" DataType="boolean" Length="1" redcap:Variable="dft2_z_s3_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_z_s3_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 3: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 3: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_z_s3_type3___1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_z_s3_type3___2" Name="dft2_z_s3_type3___2" DataType="boolean" Length="1" redcap:Variable="dft2_z_s3_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_z_s3_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 3: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 3: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_z_s3_type3___2.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_z_s3_type3___3" Name="dft2_z_s3_type3___3" DataType="boolean" Length="1" redcap:Variable="dft2_z_s3_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_z_s3_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 3: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 3: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_z_s3_type3___3.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_z_s3_type3___4" Name="dft2_z_s3_type3___4" DataType="boolean" Length="1" redcap:Variable="dft2_z_s3_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_z_s3_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 3: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 3: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_z_s3_type3___4.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_z_s3_type3___5" Name="dft2_z_s3_type3___5" DataType="boolean" Length="1" redcap:Variable="dft2_z_s3_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_z_s3_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 3: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 3: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_z_s3_type3___5.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_z_s3_type3___6" Name="dft2_z_s3_type3___6" DataType="boolean" Length="1" redcap:Variable="dft2_z_s3_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_z_s3_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 3: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 3: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_z_s3_type3___6.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_z_s3_type3_no_op" Name="dft2_z_s3_type3_no_op" DataType="text" Length="2" redcap:Variable="dft2_z_s3_type3_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to answer this question.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_z_s3_type3_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_z_s3_type3_em" Name="dft2_z_s3_type3_em" DataType="text" Length="999" redcap:Variable="dft2_z_s3_type3_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>    Statement 3: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.      {dft2_z_s3_type3} {dft2_z_s3_type3_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 102.562px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 84.5625px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; vertical-align: bottom; height: 84.5625px;&quot;&gt; &lt;p&gt;Statement 3: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right; height: 84.5625px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt; &lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft2_z_s3_type3}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right; height: 18px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;{dft2_z_s3_type3_no_op}&lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_z_s3_choice" Name="dft2_z_s3_choice" DataType="float" Length="999" redcap:Variable="dft2_z_s3_choice" redcap:FieldType="calc" redcap:Calculation="[dft2_z_s3_type3(1)]+[dft2_z_s3_type3(2)]+[dft2_z_s3_type3(3)]+[dft2_z_s3_type3(4)]+[dft2_z_s3_type3(5)]+[dft2_z_s3_type3(6)]" redcap:FieldAnnotation="@HIDDEN-SURVEY">
+		<Question><TranslatedText>choice_total</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_z_s3_choice_msg" Name="dft2_z_s3_choice_msg" DataType="text" Length="999" redcap:Variable="dft2_z_s3_choice_msg" redcap:FieldType="descriptive" redcap:BranchingLogic="if([dft2_z_s3_choice]&lt; 3,&quot;You may select up to three answers&quot;,&quot;&quot;)">
+		<Question><TranslatedText>You may select up to three answers</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;&lt;span style=&quot;color: #e03e2d;&quot;&gt;You may select up to three answers&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_z_s3_comment" Name="dft2_z_s3_comment" DataType="text" Length="999" redcap:Variable="dft2_z_s3_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 3 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_z_comment" Name="dft2_z_comment" DataType="text" Length="999" redcap:Variable="dft2_z_comment" redcap:FieldType="textarea" redcap:SectionHeader=" ">
+		<Question><TranslatedText>PREAMBLE: &quot;Insert here the title of your preamble&quot; Please indicate here, if you want to, any additional comment related to this section. You might also propose an additional statement for the next step of the fast-track Delphi process [optional]:</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;PREAMBLE: &quot;Insert here the title of your preamble&quot;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please indicate here, if you want to, any additional comment related to this section. You might also propose an additional statement for the next step of the &lt;em&gt;fast-track Delphi&lt;/em&gt; process [optional]:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s4_type1" Name="dft2_a_s4_type1" DataType="text" Length="1" redcap:Variable="dft2_a_s4_type1" redcap:FieldType="radio" redcap:SectionHeader="SECTION A: &quot;Insert here the title of your section A&quot;
+
+This section of the e-questionnaire contains statements related to XXX.
+
+
+Statement 4: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." redcap:RequiredField="y" redcap:BranchingLogic="[dft2_a_s4_type1_no_op] &lt;&gt; &#039;10&#039;" redcap:MatrixGroupName="dft2_a_s4_mat">
+		<Question><TranslatedText>Statement 4: &quot;Insert here a type-1 question (format: affirmative statement).&quot;</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_a_s4_type1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s4_type1_no_op" Name="dft2_a_s4_type1_no_op" DataType="text" Length="2" redcap:Variable="dft2_a_s4_type1_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_a_s4_type1_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s4_type1_em" Name="dft2_a_s4_type1_em" DataType="text" Length="999" redcap:Variable="dft2_a_s4_type1_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   {dft2_a_s4_type1} {dft2_a_s4_type1_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft2_a_s4_type1}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;{dft2_a_s4_type1_no_op}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s4_comment" Name="dft2_a_s4_comment" DataType="text" Length="999" redcap:Variable="dft2_a_s4_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 4 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s5_type1" Name="dft2_a_s5_type1" DataType="text" Length="1" redcap:Variable="dft2_a_s5_type1" redcap:FieldType="radio" redcap:SectionHeader="Statement 5: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." redcap:RequiredField="y" redcap:BranchingLogic="[dft2_a_s5_type1_no_op] &lt;&gt; &#039;10&#039;" redcap:MatrixGroupName="dft2_a_s5_mat">
+		<Question><TranslatedText>Statement 5: &quot;Insert here a type-1 question (format: affirmative statement).&quot;</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_a_s5_type1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s5_type1_no_op" Name="dft2_a_s5_type1_no_op" DataType="text" Length="2" redcap:Variable="dft2_a_s5_type1_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_a_s5_type1_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s5_type1_em" Name="dft2_a_s5_type1_em" DataType="text" Length="999" redcap:Variable="dft2_a_s5_type1_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   {dft2_a_s5_type1} {dft2_a_s5_type1_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft2_a_s5_type1}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;{dft2_a_s5_type1_no_op}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s5_comment" Name="dft2_a_s5_comment" DataType="text" Length="999" redcap:Variable="dft2_a_s5_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 5 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s6_type2" Name="dft2_a_s6_type2" DataType="text" Length="1" redcap:Variable="dft2_a_s6_type2" redcap:FieldType="radio" redcap:SectionHeader=" " redcap:RequiredField="y">
+		<Question><TranslatedText>Statement 6: &quot;Insert here a type-2 question (format: open-ended question).&quot;
+
+ Please choose only one answer among the following options.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 6: &quot;Insert here a type-2 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please choose only one answer among the following options.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_a_s6_type2.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s6_comment" Name="dft2_a_s6_comment" DataType="text" Length="999" redcap:Variable="dft2_a_s6_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 6 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s7_type2" Name="dft2_a_s7_type2" DataType="text" Length="1" redcap:Variable="dft2_a_s7_type2" redcap:FieldType="radio" redcap:SectionHeader=" " redcap:RequiredField="y">
+		<Question><TranslatedText>Statement 7: &quot;Insert here a type-2 question (format: open-ended question).&quot;
+
+ Please choose only one answer among the following options.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 7: &quot;Insert here a type-2 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please choose only one answer among the following options.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_a_s7_type2.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s7_comment" Name="dft2_a_s7_comment" DataType="text" Length="999" redcap:Variable="dft2_a_s7_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 7 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s8_type3___1" Name="dft2_a_s8_type3___1" DataType="boolean" Length="1" redcap:Variable="dft2_a_s8_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_a_s8_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 8: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 8: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_a_s8_type3___1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s8_type3___2" Name="dft2_a_s8_type3___2" DataType="boolean" Length="1" redcap:Variable="dft2_a_s8_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_a_s8_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 8: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 8: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_a_s8_type3___2.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s8_type3___3" Name="dft2_a_s8_type3___3" DataType="boolean" Length="1" redcap:Variable="dft2_a_s8_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_a_s8_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 8: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 8: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_a_s8_type3___3.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s8_type3___4" Name="dft2_a_s8_type3___4" DataType="boolean" Length="1" redcap:Variable="dft2_a_s8_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_a_s8_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 8: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 8: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_a_s8_type3___4.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s8_type3___5" Name="dft2_a_s8_type3___5" DataType="boolean" Length="1" redcap:Variable="dft2_a_s8_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_a_s8_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 8: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 8: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_a_s8_type3___5.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s8_type3___6" Name="dft2_a_s8_type3___6" DataType="boolean" Length="1" redcap:Variable="dft2_a_s8_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_a_s8_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 8: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 8: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_a_s8_type3___6.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s8_type3_no_op" Name="dft2_a_s8_type3_no_op" DataType="text" Length="2" redcap:Variable="dft2_a_s8_type3_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to answer this question.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_a_s8_type3_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s8_type3_em" Name="dft2_a_s8_type3_em" DataType="text" Length="999" redcap:Variable="dft2_a_s8_type3_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>    Statement 8: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.      {dft2_a_s8_type3} {dft2_a_s8_type3_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td style=&quot;width: 71.9236%; vertical-align: bottom;&quot;&gt; &lt;p&gt;Statement 8: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt; &lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft2_a_s8_type3}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;{dft2_a_s8_type3_no_op}&lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s8_choice" Name="dft2_a_s8_choice" DataType="float" Length="999" redcap:Variable="dft2_a_s8_choice" redcap:FieldType="calc" redcap:Calculation="[dft2_a_s8_type3(1)]+[dft2_a_s8_type3(2)]+[dft2_a_s8_type3(3)]+[dft2_a_s8_type3(4)]+[dft2_a_s8_type3(5)]+[dft2_a_s8_type3(6)]" redcap:FieldAnnotation="@HIDDEN-SURVEY">
+		<Question><TranslatedText>choice_total</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s8_choice_msg" Name="dft2_a_s8_choice_msg" DataType="text" Length="999" redcap:Variable="dft2_a_s8_choice_msg" redcap:FieldType="descriptive" redcap:BranchingLogic="if([dft2_a_s8_choice]&lt; 3,&quot;You may select up to three answers&quot;,&quot;&quot;)">
+		<Question><TranslatedText>You may select up to three answers</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;&lt;span style=&quot;color: #e03e2d;&quot;&gt;You may select up to three answers&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s8_comment" Name="dft2_a_s8_comment" DataType="text" Length="999" redcap:Variable="dft2_a_s8_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 8 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s9_type3___1" Name="dft2_a_s9_type3___1" DataType="boolean" Length="1" redcap:Variable="dft2_a_s9_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_a_s9_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 9: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 9: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_a_s9_type3___1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s9_type3___2" Name="dft2_a_s9_type3___2" DataType="boolean" Length="1" redcap:Variable="dft2_a_s9_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_a_s9_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 9: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 9: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_a_s9_type3___2.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s9_type3___3" Name="dft2_a_s9_type3___3" DataType="boolean" Length="1" redcap:Variable="dft2_a_s9_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_a_s9_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 9: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 9: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_a_s9_type3___3.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s9_type3___4" Name="dft2_a_s9_type3___4" DataType="boolean" Length="1" redcap:Variable="dft2_a_s9_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_a_s9_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 9: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 9: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_a_s9_type3___4.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s9_type3___5" Name="dft2_a_s9_type3___5" DataType="boolean" Length="1" redcap:Variable="dft2_a_s9_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_a_s9_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 9: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 9: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_a_s9_type3___5.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s9_type3___6" Name="dft2_a_s9_type3___6" DataType="boolean" Length="1" redcap:Variable="dft2_a_s9_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_a_s9_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 9: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 9: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_a_s9_type3___6.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s9_type3_no_op" Name="dft2_a_s9_type3_no_op" DataType="text" Length="2" redcap:Variable="dft2_a_s9_type3_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to answer this question.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_a_s9_type3_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s9_type3_em" Name="dft2_a_s9_type3_em" DataType="text" Length="999" redcap:Variable="dft2_a_s9_type3_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>    Statement 9: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.      {dft2_a_s9_type3} {dft2_a_s9_type3_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td style=&quot;width: 71.9236%; vertical-align: bottom;&quot;&gt; &lt;p&gt;Statement 9: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt; &lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft2_a_s9_type3}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;{dft2_a_s9_type3_no_op}&lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s9_choice" Name="dft2_a_s9_choice" DataType="float" Length="999" redcap:Variable="dft2_a_s9_choice" redcap:FieldType="calc" redcap:Calculation="[dft2_a_s9_type3(1)]+[dft2_a_s9_type3(2)]+[dft2_a_s9_type3(3)]+[dft2_a_s9_type3(4)]+[dft2_a_s9_type3(5)]+[dft2_a_s9_type3(6)]" redcap:FieldAnnotation="@HIDDEN-SURVEY">
+		<Question><TranslatedText>choice_total</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s9_choice_msg" Name="dft2_a_s9_choice_msg" DataType="text" Length="999" redcap:Variable="dft2_a_s9_choice_msg" redcap:FieldType="descriptive" redcap:BranchingLogic="if([dft2_a_s9_choice]&lt; 3,&quot;You may select up to three answers&quot;,&quot;&quot;)">
+		<Question><TranslatedText>You may select up to three answers</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;&lt;span style=&quot;color: #e03e2d;&quot;&gt;You may select up to three answers&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_a_s9_comment" Name="dft2_a_s9_comment" DataType="text" Length="999" redcap:Variable="dft2_a_s9_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 9 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_a_comment" Name="dft2_a_comment" DataType="text" Length="999" redcap:Variable="dft2_a_comment" redcap:FieldType="textarea" redcap:SectionHeader=" ">
+		<Question><TranslatedText>SECTION A: &quot;Insert here the title of your section A&quot; Please indicate here, if you want to, any additional comment related to this section. You might also propose an additional statement for the next step of the fast-track Delphi process [optional]:</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;SECTION A: &quot;Insert here the title of your section A&quot;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please indicate here, if you want to, any additional comment related to this section. You might also propose an additional statement for the next step of the &lt;em&gt;fast-track Delphi&lt;/em&gt; process [optional]:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s10_type1" Name="dft2_b_s10_type1" DataType="text" Length="1" redcap:Variable="dft2_b_s10_type1" redcap:FieldType="radio" redcap:SectionHeader="SECTION B: &quot;Insert here the title of your section B&quot;
+
+This section of the e-questionnaire contains statements related to XXX.
+
+
+Statement 10: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." redcap:RequiredField="y" redcap:BranchingLogic="[dft2_b_s10_type1_no_op] &lt;&gt; &#039;10&#039;" redcap:MatrixGroupName="dft2_b_s10_mat">
+		<Question><TranslatedText>Statement 10: &quot;Insert here a type-1 question (format: affirmative statement).&quot;</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_b_s10_type1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s10_type1_no_op" Name="dft2_b_s10_type1_no_op" DataType="text" Length="2" redcap:Variable="dft2_b_s10_type1_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_b_s10_type1_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s10_type1_em" Name="dft2_b_s10_type1_em" DataType="text" Length="999" redcap:Variable="dft2_b_s10_type1_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   {dft2_b_s10_type1} {dft2_b_s10_type1_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft2_b_s10_type1}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;{dft2_b_s10_type1_no_op}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s10_comment" Name="dft2_b_s10_comment" DataType="text" Length="999" redcap:Variable="dft2_b_s10_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 10 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s11_type1" Name="dft2_b_s11_type1" DataType="text" Length="1" redcap:Variable="dft2_b_s11_type1" redcap:FieldType="radio" redcap:SectionHeader="Statement 11: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." redcap:RequiredField="y" redcap:BranchingLogic="[dft2_b_s11_type1_no_op] &lt;&gt; &#039;10&#039;" redcap:MatrixGroupName="dft2_b_s11_mat">
+		<Question><TranslatedText>Statement 11: &quot;Insert here a type-1 question (format: affirmative statement).&quot;</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_b_s11_type1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s11_type1_no_op" Name="dft2_b_s11_type1_no_op" DataType="text" Length="2" redcap:Variable="dft2_b_s11_type1_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_b_s11_type1_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s11_type1_em" Name="dft2_b_s11_type1_em" DataType="text" Length="999" redcap:Variable="dft2_b_s11_type1_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   {dft2_b_s11_type1} {dft2_b_s11_type1_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft2_b_s11_type1}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;{dft2_b_s11_type1_no_op}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s11_comment" Name="dft2_b_s11_comment" DataType="text" Length="999" redcap:Variable="dft2_b_s11_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 11 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s12_type2" Name="dft2_b_s12_type2" DataType="text" Length="1" redcap:Variable="dft2_b_s12_type2" redcap:FieldType="radio" redcap:SectionHeader=" " redcap:RequiredField="y">
+		<Question><TranslatedText>Statement 12: &quot;Insert here a type-2 question (format: open-ended question).&quot;
+
+ Please choose only one answer among the following options.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 12: &quot;Insert here a type-2 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please choose only one answer among the following options.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_b_s12_type2.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s12_comment" Name="dft2_b_s12_comment" DataType="text" Length="999" redcap:Variable="dft2_b_s12_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 12 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s13_type2" Name="dft2_b_s13_type2" DataType="text" Length="1" redcap:Variable="dft2_b_s13_type2" redcap:FieldType="radio" redcap:SectionHeader=" " redcap:RequiredField="y">
+		<Question><TranslatedText>Statement 13: &quot;Insert here a type-2 question (format: open-ended question).&quot;
+
+ Please choose only one answer among the following options.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 13: &quot;Insert here a type-2 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please choose only one answer among the following options.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_b_s13_type2.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s13_comment" Name="dft2_b_s13_comment" DataType="text" Length="999" redcap:Variable="dft2_b_s13_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 13 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s14_type3___1" Name="dft2_b_s14_type3___1" DataType="boolean" Length="1" redcap:Variable="dft2_b_s14_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_b_s14_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 14: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 14: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_b_s14_type3___1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s14_type3___2" Name="dft2_b_s14_type3___2" DataType="boolean" Length="1" redcap:Variable="dft2_b_s14_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_b_s14_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 14: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 14: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_b_s14_type3___2.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s14_type3___3" Name="dft2_b_s14_type3___3" DataType="boolean" Length="1" redcap:Variable="dft2_b_s14_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_b_s14_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 14: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 14: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_b_s14_type3___3.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s14_type3___4" Name="dft2_b_s14_type3___4" DataType="boolean" Length="1" redcap:Variable="dft2_b_s14_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_b_s14_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 14: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 14: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_b_s14_type3___4.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s14_type3___5" Name="dft2_b_s14_type3___5" DataType="boolean" Length="1" redcap:Variable="dft2_b_s14_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_b_s14_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 14: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 14: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_b_s14_type3___5.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s14_type3___6" Name="dft2_b_s14_type3___6" DataType="boolean" Length="1" redcap:Variable="dft2_b_s14_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_b_s14_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 14: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 14: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_b_s14_type3___6.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s14_type3_no_op" Name="dft2_b_s14_type3_no_op" DataType="text" Length="2" redcap:Variable="dft2_b_s14_type3_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to answer this question.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_b_s14_type3_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s14_type3_em" Name="dft2_b_s14_type3_em" DataType="text" Length="999" redcap:Variable="dft2_b_s14_type3_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>    Statement 14: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.      {dft2_b_s14_type3} {dft2_b_s14_type3_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td style=&quot;width: 71.9236%; vertical-align: bottom;&quot;&gt; &lt;p&gt;Statement 14: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt; &lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft2_b_s14_type3}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;{dft2_b_s14_type3_no_op}&lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s14_choice" Name="dft2_b_s14_choice" DataType="float" Length="999" redcap:Variable="dft2_b_s14_choice" redcap:FieldType="calc" redcap:Calculation="[dft2_b_s14_type3(1)]+[dft2_b_s14_type3(2)]+[dft2_b_s14_type3(3)]+[dft2_b_s14_type3(4)]+[dft2_b_s14_type3(5)]+[dft2_b_s14_type3(6)]" redcap:FieldAnnotation="@HIDDEN-SURVEY">
+		<Question><TranslatedText>choice_total</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s14_choice_msg" Name="dft2_b_s14_choice_msg" DataType="text" Length="999" redcap:Variable="dft2_b_s14_choice_msg" redcap:FieldType="descriptive" redcap:BranchingLogic="if([dft2_b_s14_choice]&lt; 3,&quot;You may select up to three answers&quot;,&quot;&quot;)">
+		<Question><TranslatedText>You may select up to three answers</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;&lt;span style=&quot;color: #e03e2d;&quot;&gt;You may select up to three answers&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s14_comment" Name="dft2_b_s14_comment" DataType="text" Length="999" redcap:Variable="dft2_b_s14_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 14 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s15_type3___1" Name="dft2_b_s15_type3___1" DataType="boolean" Length="1" redcap:Variable="dft2_b_s15_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_b_s15_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 15: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 15: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_b_s15_type3___1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s15_type3___2" Name="dft2_b_s15_type3___2" DataType="boolean" Length="1" redcap:Variable="dft2_b_s15_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_b_s15_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 15: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 15: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_b_s15_type3___2.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s15_type3___3" Name="dft2_b_s15_type3___3" DataType="boolean" Length="1" redcap:Variable="dft2_b_s15_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_b_s15_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 15: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 15: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_b_s15_type3___3.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s15_type3___4" Name="dft2_b_s15_type3___4" DataType="boolean" Length="1" redcap:Variable="dft2_b_s15_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_b_s15_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 15: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 15: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_b_s15_type3___4.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s15_type3___5" Name="dft2_b_s15_type3___5" DataType="boolean" Length="1" redcap:Variable="dft2_b_s15_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_b_s15_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 15: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 15: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_b_s15_type3___5.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s15_type3___6" Name="dft2_b_s15_type3___6" DataType="boolean" Length="1" redcap:Variable="dft2_b_s15_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_b_s15_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 15: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 15: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_b_s15_type3___6.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s15_type3_no_op" Name="dft2_b_s15_type3_no_op" DataType="text" Length="2" redcap:Variable="dft2_b_s15_type3_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to answer this question.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_b_s15_type3_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s15_type3_em" Name="dft2_b_s15_type3_em" DataType="text" Length="999" redcap:Variable="dft2_b_s15_type3_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>    Statement 15: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.      {dft2_b_s15_type3} {dft2_b_s15_type3_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td style=&quot;width: 71.9236%; vertical-align: bottom;&quot;&gt; &lt;p&gt;Statement 15: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt; &lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft2_b_s15_type3}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;{dft2_b_s15_type3_no_op}&lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s15_choice" Name="dft2_b_s15_choice" DataType="float" Length="999" redcap:Variable="dft2_b_s15_choice" redcap:FieldType="calc" redcap:Calculation="[dft2_b_s15_type3(1)]+[dft2_b_s15_type3(2)]+[dft2_b_s15_type3(3)]+[dft2_b_s15_type3(4)]+[dft2_b_s15_type3(5)]+[dft2_b_s15_type3(6)]" redcap:FieldAnnotation="@HIDDEN-SURVEY">
+		<Question><TranslatedText>choice_total</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s15_choice_msg" Name="dft2_b_s15_choice_msg" DataType="text" Length="999" redcap:Variable="dft2_b_s15_choice_msg" redcap:FieldType="descriptive" redcap:BranchingLogic="if([dft2_b_s15_choice]&lt; 3,&quot;You may select up to three answers&quot;,&quot;&quot;)">
+		<Question><TranslatedText>You may select up to three answers</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;&lt;span style=&quot;color: #e03e2d;&quot;&gt;You may select up to three answers&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_b_s15_comment" Name="dft2_b_s15_comment" DataType="text" Length="999" redcap:Variable="dft2_b_s15_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 15 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_b_comment" Name="dft2_b_comment" DataType="text" Length="999" redcap:Variable="dft2_b_comment" redcap:FieldType="textarea" redcap:SectionHeader=" ">
+		<Question><TranslatedText>SECTION B: &quot;Insert here the title of your section B&quot; Please indicate here, if you want to, any additional comment related to this section. You might also propose an additional statement for the next step of the fast-track Delphi process [optional]:</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;SECTION B: &quot;Insert here the title of your section B&quot;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please indicate here, if you want to, any additional comment related to this section. You might also propose an additional statement for the next step of the &lt;em&gt;fast-track Delphi&lt;/em&gt; process [optional]:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s16_type1" Name="dft2_c_s16_type1" DataType="text" Length="1" redcap:Variable="dft2_c_s16_type1" redcap:FieldType="radio" redcap:SectionHeader="SECTION C: &quot;Insert here the title of your section C&quot;
+
+This section of the e-questionnaire contains statements related to XXX.
+
+
+Statement 16: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." redcap:RequiredField="y" redcap:BranchingLogic="[dft2_c_s16_type1_no_op] &lt;&gt; &#039;10&#039;" redcap:MatrixGroupName="dft2_c_s16_mat">
+		<Question><TranslatedText>Statement 16: &quot;Insert here a type-1 question (format: affirmative statement).&quot;</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_c_s16_type1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s16_type1_no_op" Name="dft2_c_s16_type1_no_op" DataType="text" Length="2" redcap:Variable="dft2_c_s16_type1_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_c_s16_type1_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s16_type1_em" Name="dft2_c_s16_type1_em" DataType="text" Length="999" redcap:Variable="dft2_c_s16_type1_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   {dft2_c_s16_type1} {dft2_c_s16_type1_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft2_c_s16_type1}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;{dft2_c_s16_type1_no_op}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s16_comment" Name="dft2_c_s16_comment" DataType="text" Length="999" redcap:Variable="dft2_c_s16_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 16 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s17_type1" Name="dft2_c_s17_type1" DataType="text" Length="1" redcap:Variable="dft2_c_s17_type1" redcap:FieldType="radio" redcap:SectionHeader="Statement 17: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." redcap:RequiredField="y" redcap:BranchingLogic="[dft2_c_s17_type1_no_op] &lt;&gt; &#039;10&#039;" redcap:MatrixGroupName="dft2_c_s17_mat">
+		<Question><TranslatedText>Statement 17: &quot;Insert here a type-1 question (format: affirmative statement).&quot;</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_c_s17_type1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s17_type1_no_op" Name="dft2_c_s17_type1_no_op" DataType="text" Length="2" redcap:Variable="dft2_c_s17_type1_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_c_s17_type1_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s17_type1_em" Name="dft2_c_s17_type1_em" DataType="text" Length="999" redcap:Variable="dft2_c_s17_type1_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   {dft2_c_s17_type1} {dft2_c_s17_type1_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft2_c_s17_type1}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;{dft2_c_s17_type1_no_op}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s17_comment" Name="dft2_c_s17_comment" DataType="text" Length="999" redcap:Variable="dft2_c_s17_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 17 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s18_type2" Name="dft2_c_s18_type2" DataType="text" Length="1" redcap:Variable="dft2_c_s18_type2" redcap:FieldType="radio" redcap:SectionHeader=" " redcap:RequiredField="y">
+		<Question><TranslatedText>Statement 18: &quot;Insert here a type-2 question (format: open-ended question).&quot;
+
+ Please choose only one answer among the following options.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 18: &quot;Insert here a type-2 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please choose only one answer among the following options.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_c_s18_type2.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s18_comment" Name="dft2_c_s18_comment" DataType="text" Length="999" redcap:Variable="dft2_c_s18_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 18 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s19_type2" Name="dft2_c_s19_type2" DataType="text" Length="1" redcap:Variable="dft2_c_s19_type2" redcap:FieldType="radio" redcap:SectionHeader=" " redcap:RequiredField="y">
+		<Question><TranslatedText>Statement 19: &quot;Insert here a type-2 question (format: open-ended question).&quot;
+
+ Please choose only one answer among the following options.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 19: &quot;Insert here a type-2 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please choose only one answer among the following options.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_c_s19_type2.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s19_comment" Name="dft2_c_s19_comment" DataType="text" Length="999" redcap:Variable="dft2_c_s19_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 19 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s20_type3___1" Name="dft2_c_s20_type3___1" DataType="boolean" Length="1" redcap:Variable="dft2_c_s20_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_c_s20_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 20: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 20: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_c_s20_type3___1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s20_type3___2" Name="dft2_c_s20_type3___2" DataType="boolean" Length="1" redcap:Variable="dft2_c_s20_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_c_s20_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 20: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 20: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_c_s20_type3___2.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s20_type3___3" Name="dft2_c_s20_type3___3" DataType="boolean" Length="1" redcap:Variable="dft2_c_s20_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_c_s20_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 20: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 20: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_c_s20_type3___3.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s20_type3___4" Name="dft2_c_s20_type3___4" DataType="boolean" Length="1" redcap:Variable="dft2_c_s20_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_c_s20_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 20: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 20: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_c_s20_type3___4.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s20_type3___5" Name="dft2_c_s20_type3___5" DataType="boolean" Length="1" redcap:Variable="dft2_c_s20_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_c_s20_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 20: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 20: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_c_s20_type3___5.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s20_type3___6" Name="dft2_c_s20_type3___6" DataType="boolean" Length="1" redcap:Variable="dft2_c_s20_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_c_s20_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 20: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 20: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_c_s20_type3___6.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s20_type3_no_op" Name="dft2_c_s20_type3_no_op" DataType="text" Length="2" redcap:Variable="dft2_c_s20_type3_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to answer this question.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_c_s20_type3_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s20_type3_em" Name="dft2_c_s20_type3_em" DataType="text" Length="999" redcap:Variable="dft2_c_s20_type3_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>    Statement 20: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.      {dft2_c_s20_type3} {dft2_c_s20_type3_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td style=&quot;width: 71.9236%; vertical-align: bottom;&quot;&gt; &lt;p&gt;Statement 20: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt; &lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft2_c_s20_type3}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;{dft2_c_s20_type3_no_op}&lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s20_choice" Name="dft2_c_s20_choice" DataType="float" Length="999" redcap:Variable="dft2_c_s20_choice" redcap:FieldType="calc" redcap:Calculation="[dft2_c_s20_type3(1)]+[dft2_c_s20_type3(2)]+[dft2_c_s20_type3(3)]+[dft2_c_s20_type3(4)]+[dft2_c_s20_type3(5)]+[dft2_c_s20_type3(6)]" redcap:FieldAnnotation="@HIDDEN-SURVEY">
+		<Question><TranslatedText>choice_total</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s20_choice_msg" Name="dft2_c_s20_choice_msg" DataType="text" Length="999" redcap:Variable="dft2_c_s20_choice_msg" redcap:FieldType="descriptive" redcap:BranchingLogic="if([dft2_c_s20_choice]&lt; 3,&quot;You may select up to three answers&quot;,&quot;&quot;)">
+		<Question><TranslatedText>You may select up to three answers</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;&lt;span style=&quot;color: #e03e2d;&quot;&gt;You may select up to three answers&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s20_comment" Name="dft2_c_s20_comment" DataType="text" Length="999" redcap:Variable="dft2_c_s20_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 20 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s21_type3___1" Name="dft2_c_s21_type3___1" DataType="boolean" Length="1" redcap:Variable="dft2_c_s21_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_c_s21_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 21: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 21: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_c_s21_type3___1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s21_type3___2" Name="dft2_c_s21_type3___2" DataType="boolean" Length="1" redcap:Variable="dft2_c_s21_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_c_s21_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 21: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 21: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_c_s21_type3___2.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s21_type3___3" Name="dft2_c_s21_type3___3" DataType="boolean" Length="1" redcap:Variable="dft2_c_s21_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_c_s21_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 21: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 21: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_c_s21_type3___3.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s21_type3___4" Name="dft2_c_s21_type3___4" DataType="boolean" Length="1" redcap:Variable="dft2_c_s21_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_c_s21_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 21: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 21: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_c_s21_type3___4.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s21_type3___5" Name="dft2_c_s21_type3___5" DataType="boolean" Length="1" redcap:Variable="dft2_c_s21_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_c_s21_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 21: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 21: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_c_s21_type3___5.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s21_type3___6" Name="dft2_c_s21_type3___6" DataType="boolean" Length="1" redcap:Variable="dft2_c_s21_type3" redcap:FieldType="checkbox" redcap:SectionHeader=" " redcap:RequiredField="y" redcap:BranchingLogic="[dft2_c_s21_type3_no_op] &lt;&gt; &#039;10&#039;" redcap:FieldAnnotation="@MAXCHECKED=3">
+		<Question><TranslatedText>Statement 21: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Statement 21: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_c_s21_type3___6.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s21_type3_no_op" Name="dft2_c_s21_type3_no_op" DataType="text" Length="2" redcap:Variable="dft2_c_s21_type3_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to answer this question.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft2_c_s21_type3_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s21_type3_em" Name="dft2_c_s21_type3_em" DataType="text" Length="999" redcap:Variable="dft2_c_s21_type3_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>    Statement 21: &quot;Insert here a type-3 question (format: open-ended question).&quot;
+
+ Please select your top-3 answers among the options below.      {dft2_c_s21_type3} {dft2_c_s21_type3_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td style=&quot;width: 71.9236%; vertical-align: bottom;&quot;&gt; &lt;p&gt;Statement 21: &quot;Insert here a type-3 question (format: open-ended question).&quot;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please select your top-3 answers among the options below.&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt; &lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft2_c_s21_type3}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;{dft2_c_s21_type3_no_op}&lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s21_choice" Name="dft2_c_s21_choice" DataType="float" Length="999" redcap:Variable="dft2_c_s21_choice" redcap:FieldType="calc" redcap:Calculation="[dft2_c_s21_type3(1)]+[dft2_c_s21_type3(2)]+[dft2_c_s21_type3(3)]+[dft2_c_s21_type3(4)]+[dft2_c_s21_type3(5)]+[dft2_c_s21_type3(6)]" redcap:FieldAnnotation="@HIDDEN-SURVEY">
+		<Question><TranslatedText>choice_total</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s21_choice_msg" Name="dft2_c_s21_choice_msg" DataType="text" Length="999" redcap:Variable="dft2_c_s21_choice_msg" redcap:FieldType="descriptive" redcap:BranchingLogic="if([dft2_c_s21_choice]&lt; 3,&quot;You may select up to three answers&quot;,&quot;&quot;)">
+		<Question><TranslatedText>You may select up to three answers</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;&lt;span style=&quot;color: #e03e2d;&quot;&gt;You may select up to three answers&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_c_s21_comment" Name="dft2_c_s21_comment" DataType="text" Length="999" redcap:Variable="dft2_c_s21_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 21 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft2_c_comment" Name="dft2_c_comment" DataType="text" Length="999" redcap:Variable="dft2_c_comment" redcap:FieldType="textarea" redcap:SectionHeader=" ">
+		<Question><TranslatedText>SECTION C: &quot;Insert here the title of your section C&quot; Please indicate here, if you want to, any additional comment related to this section. You might also propose an additional statement for the next step of the fast-track Delphi process [optional]:</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;SECTION C: &quot;Insert here the title of your section C&quot;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please indicate here, if you want to, any additional comment related to this section. You might also propose an additional statement for the next step of the &lt;em&gt;fast-track Delphi&lt;/em&gt; process [optional]:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="round_2_equestionnaire_complete" Name="round_2_equestionnaire_complete" DataType="text" Length="1" redcap:Variable="round_2_equestionnaire_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="round_2_equestionnaire_complete.choices"/>
+	</ItemDef>
+	<CodeList OID="dft2_0_gender.choices" Name="dft2_0_gender" DataType="text" redcap:Variable="dft2_0_gender">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Masculine</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Feminine</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Other</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_0_job.choices" Name="dft2_0_job" DataType="text" redcap:Variable="dft2_0_job">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Insert here option number 1</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Insert here option number 2</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Insert here option number 3</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Insert here option number 4</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Insert here option number 5</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>Other</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_0_joblang.choices" Name="dft2_0_joblang" DataType="text" redcap:Variable="dft2_0_joblang">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Insert here option number 1</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Insert here option number 2</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Insert here option number 3</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Insert here option number 4</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Insert here option number 5</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>Other</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_z_s1_type1.choices" Name="dft2_z_s1_type1" DataType="text" redcap:Variable="dft2_z_s1_type1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Total disagreement (1)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>(2)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Disagreement (3)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>(4)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Neutral (5)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>(6)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Agreement (7)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>(8)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Total agreement (9)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_z_s1_type1_no_op.choices" Name="dft2_z_s1_type1_no_op" DataType="text" redcap:Variable="dft2_z_s1_type1_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_z_s2_type2.choices" Name="dft2_z_s2_type2" DataType="text" redcap:Variable="dft2_z_s2_type2">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Insert here option number 1</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Insert here option number 2</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Insert here option number 3</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Insert here option number 4</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Other (please specify your answer in the comment below)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>I do not want or do not wish to answer this question.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_z_s3_type3___1.choices" Name="dft2_z_s3_type3___1" DataType="boolean" redcap:Variable="dft2_z_s3_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_z_s3_type3___2.choices" Name="dft2_z_s3_type3___2" DataType="boolean" redcap:Variable="dft2_z_s3_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_z_s3_type3___3.choices" Name="dft2_z_s3_type3___3" DataType="boolean" redcap:Variable="dft2_z_s3_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_z_s3_type3___4.choices" Name="dft2_z_s3_type3___4" DataType="boolean" redcap:Variable="dft2_z_s3_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_z_s3_type3___5.choices" Name="dft2_z_s3_type3___5" DataType="boolean" redcap:Variable="dft2_z_s3_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_z_s3_type3___6.choices" Name="dft2_z_s3_type3___6" DataType="boolean" redcap:Variable="dft2_z_s3_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_z_s3_type3_no_op.choices" Name="dft2_z_s3_type3_no_op" DataType="text" redcap:Variable="dft2_z_s3_type3_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to answer this question.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_a_s4_type1.choices" Name="dft2_a_s4_type1" DataType="text" redcap:Variable="dft2_a_s4_type1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Total disagreement (1)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>(2)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Disagreement (3)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>(4)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Neutral (5)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>(6)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Agreement (7)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>(8)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Total agreement (9)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_a_s4_type1_no_op.choices" Name="dft2_a_s4_type1_no_op" DataType="text" redcap:Variable="dft2_a_s4_type1_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_a_s5_type1.choices" Name="dft2_a_s5_type1" DataType="text" redcap:Variable="dft2_a_s5_type1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Total disagreement (1)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>(2)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Disagreement (3)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>(4)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Neutral (5)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>(6)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Agreement (7)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>(8)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Total agreement (9)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_a_s5_type1_no_op.choices" Name="dft2_a_s5_type1_no_op" DataType="text" redcap:Variable="dft2_a_s5_type1_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_a_s6_type2.choices" Name="dft2_a_s6_type2" DataType="text" redcap:Variable="dft2_a_s6_type2">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Insert here option number 1</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Insert here option number 2</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Insert here option number 3</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Insert here option number 4</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Other (please specify your answer in the comment below)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>I do not want or do not wish to answer this question.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_a_s7_type2.choices" Name="dft2_a_s7_type2" DataType="text" redcap:Variable="dft2_a_s7_type2">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Insert here option number 1</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Insert here option number 2</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Insert here option number 3</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Insert here option number 4</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Other (please specify your answer in the comment below)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>I do not want or do not wish to answer this question.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_a_s8_type3___1.choices" Name="dft2_a_s8_type3___1" DataType="boolean" redcap:Variable="dft2_a_s8_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_a_s8_type3___2.choices" Name="dft2_a_s8_type3___2" DataType="boolean" redcap:Variable="dft2_a_s8_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_a_s8_type3___3.choices" Name="dft2_a_s8_type3___3" DataType="boolean" redcap:Variable="dft2_a_s8_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_a_s8_type3___4.choices" Name="dft2_a_s8_type3___4" DataType="boolean" redcap:Variable="dft2_a_s8_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_a_s8_type3___5.choices" Name="dft2_a_s8_type3___5" DataType="boolean" redcap:Variable="dft2_a_s8_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_a_s8_type3___6.choices" Name="dft2_a_s8_type3___6" DataType="boolean" redcap:Variable="dft2_a_s8_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_a_s8_type3_no_op.choices" Name="dft2_a_s8_type3_no_op" DataType="text" redcap:Variable="dft2_a_s8_type3_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to answer this question.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_a_s9_type3___1.choices" Name="dft2_a_s9_type3___1" DataType="boolean" redcap:Variable="dft2_a_s9_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_a_s9_type3___2.choices" Name="dft2_a_s9_type3___2" DataType="boolean" redcap:Variable="dft2_a_s9_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_a_s9_type3___3.choices" Name="dft2_a_s9_type3___3" DataType="boolean" redcap:Variable="dft2_a_s9_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_a_s9_type3___4.choices" Name="dft2_a_s9_type3___4" DataType="boolean" redcap:Variable="dft2_a_s9_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_a_s9_type3___5.choices" Name="dft2_a_s9_type3___5" DataType="boolean" redcap:Variable="dft2_a_s9_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_a_s9_type3___6.choices" Name="dft2_a_s9_type3___6" DataType="boolean" redcap:Variable="dft2_a_s9_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_a_s9_type3_no_op.choices" Name="dft2_a_s9_type3_no_op" DataType="text" redcap:Variable="dft2_a_s9_type3_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to answer this question.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_b_s10_type1.choices" Name="dft2_b_s10_type1" DataType="text" redcap:Variable="dft2_b_s10_type1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Total disagreement (1)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>(2)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Disagreement (3)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>(4)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Neutral (5)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>(6)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Agreement (7)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>(8)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Total agreement (9)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_b_s10_type1_no_op.choices" Name="dft2_b_s10_type1_no_op" DataType="text" redcap:Variable="dft2_b_s10_type1_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_b_s11_type1.choices" Name="dft2_b_s11_type1" DataType="text" redcap:Variable="dft2_b_s11_type1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Total disagreement (1)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>(2)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Disagreement (3)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>(4)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Neutral (5)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>(6)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Agreement (7)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>(8)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Total agreement (9)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_b_s11_type1_no_op.choices" Name="dft2_b_s11_type1_no_op" DataType="text" redcap:Variable="dft2_b_s11_type1_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_b_s12_type2.choices" Name="dft2_b_s12_type2" DataType="text" redcap:Variable="dft2_b_s12_type2">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Insert here option number 1</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Insert here option number 2</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Insert here option number 3</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Insert here option number 4</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Other (please specify your answer in the comment below)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>I do not want or do not wish to answer this question.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_b_s13_type2.choices" Name="dft2_b_s13_type2" DataType="text" redcap:Variable="dft2_b_s13_type2">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Insert here option number 1</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Insert here option number 2</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Insert here option number 3</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Insert here option number 4</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Other (please specify your answer in the comment below)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>I do not want or do not wish to answer this question.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_b_s14_type3___1.choices" Name="dft2_b_s14_type3___1" DataType="boolean" redcap:Variable="dft2_b_s14_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_b_s14_type3___2.choices" Name="dft2_b_s14_type3___2" DataType="boolean" redcap:Variable="dft2_b_s14_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_b_s14_type3___3.choices" Name="dft2_b_s14_type3___3" DataType="boolean" redcap:Variable="dft2_b_s14_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_b_s14_type3___4.choices" Name="dft2_b_s14_type3___4" DataType="boolean" redcap:Variable="dft2_b_s14_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_b_s14_type3___5.choices" Name="dft2_b_s14_type3___5" DataType="boolean" redcap:Variable="dft2_b_s14_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_b_s14_type3___6.choices" Name="dft2_b_s14_type3___6" DataType="boolean" redcap:Variable="dft2_b_s14_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_b_s14_type3_no_op.choices" Name="dft2_b_s14_type3_no_op" DataType="text" redcap:Variable="dft2_b_s14_type3_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to answer this question.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_b_s15_type3___1.choices" Name="dft2_b_s15_type3___1" DataType="boolean" redcap:Variable="dft2_b_s15_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_b_s15_type3___2.choices" Name="dft2_b_s15_type3___2" DataType="boolean" redcap:Variable="dft2_b_s15_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_b_s15_type3___3.choices" Name="dft2_b_s15_type3___3" DataType="boolean" redcap:Variable="dft2_b_s15_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_b_s15_type3___4.choices" Name="dft2_b_s15_type3___4" DataType="boolean" redcap:Variable="dft2_b_s15_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_b_s15_type3___5.choices" Name="dft2_b_s15_type3___5" DataType="boolean" redcap:Variable="dft2_b_s15_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_b_s15_type3___6.choices" Name="dft2_b_s15_type3___6" DataType="boolean" redcap:Variable="dft2_b_s15_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_b_s15_type3_no_op.choices" Name="dft2_b_s15_type3_no_op" DataType="text" redcap:Variable="dft2_b_s15_type3_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to answer this question.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_c_s16_type1.choices" Name="dft2_c_s16_type1" DataType="text" redcap:Variable="dft2_c_s16_type1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Total disagreement (1)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>(2)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Disagreement (3)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>(4)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Neutral (5)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>(6)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Agreement (7)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>(8)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Total agreement (9)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_c_s16_type1_no_op.choices" Name="dft2_c_s16_type1_no_op" DataType="text" redcap:Variable="dft2_c_s16_type1_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_c_s17_type1.choices" Name="dft2_c_s17_type1" DataType="text" redcap:Variable="dft2_c_s17_type1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Total disagreement (1)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>(2)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Disagreement (3)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>(4)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Neutral (5)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>(6)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Agreement (7)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>(8)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Total agreement (9)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_c_s17_type1_no_op.choices" Name="dft2_c_s17_type1_no_op" DataType="text" redcap:Variable="dft2_c_s17_type1_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_c_s18_type2.choices" Name="dft2_c_s18_type2" DataType="text" redcap:Variable="dft2_c_s18_type2">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Insert here option number 1</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Insert here option number 2</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Insert here option number 3</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Insert here option number 4</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Other (please specify your answer in the comment below)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>I do not want or do not wish to answer this question.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_c_s19_type2.choices" Name="dft2_c_s19_type2" DataType="text" redcap:Variable="dft2_c_s19_type2">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Insert here option number 1</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Insert here option number 2</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Insert here option number 3</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Insert here option number 4</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Other (please specify your answer in the comment below)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>I do not want or do not wish to answer this question.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_c_s20_type3___1.choices" Name="dft2_c_s20_type3___1" DataType="boolean" redcap:Variable="dft2_c_s20_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_c_s20_type3___2.choices" Name="dft2_c_s20_type3___2" DataType="boolean" redcap:Variable="dft2_c_s20_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_c_s20_type3___3.choices" Name="dft2_c_s20_type3___3" DataType="boolean" redcap:Variable="dft2_c_s20_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_c_s20_type3___4.choices" Name="dft2_c_s20_type3___4" DataType="boolean" redcap:Variable="dft2_c_s20_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_c_s20_type3___5.choices" Name="dft2_c_s20_type3___5" DataType="boolean" redcap:Variable="dft2_c_s20_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_c_s20_type3___6.choices" Name="dft2_c_s20_type3___6" DataType="boolean" redcap:Variable="dft2_c_s20_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_c_s20_type3_no_op.choices" Name="dft2_c_s20_type3_no_op" DataType="text" redcap:Variable="dft2_c_s20_type3_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to answer this question.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_c_s21_type3___1.choices" Name="dft2_c_s21_type3___1" DataType="boolean" redcap:Variable="dft2_c_s21_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_c_s21_type3___2.choices" Name="dft2_c_s21_type3___2" DataType="boolean" redcap:Variable="dft2_c_s21_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_c_s21_type3___3.choices" Name="dft2_c_s21_type3___3" DataType="boolean" redcap:Variable="dft2_c_s21_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_c_s21_type3___4.choices" Name="dft2_c_s21_type3___4" DataType="boolean" redcap:Variable="dft2_c_s21_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_c_s21_type3___5.choices" Name="dft2_c_s21_type3___5" DataType="boolean" redcap:Variable="dft2_c_s21_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_c_s21_type3___6.choices" Name="dft2_c_s21_type3___6" DataType="boolean" redcap:Variable="dft2_c_s21_type3" redcap:CheckboxChoices="1, Insert here option number 1 | 2, Insert here option number 2 | 3, Insert here option number 3 | 4, Insert here option number 4 | 5, Insert here option number 5 | 6, Other (please specify your answer in the comment below)">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft2_c_s21_type3_no_op.choices" Name="dft2_c_s21_type3_no_op" DataType="text" redcap:Variable="dft2_c_s21_type3_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to answer this question.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="round_2_equestionnaire_complete.choices" Name="round_2_equestionnaire_complete" DataType="text" redcap:Variable="round_2_equestionnaire_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+</MetaDataVersion>
+</Study>
+</ODM>

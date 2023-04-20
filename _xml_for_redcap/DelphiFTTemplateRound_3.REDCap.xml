@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="https://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="Delphi-FT template round 3" AsOfDateTime="2023-03-31T15:33:33" CreationDateTime="2023-03-31T15:33:33" SourceSystem="REDCap" SourceSystemVersion="13.1.3">
+<Study OID="Project.DelphiFTTemplateRound3">
+<GlobalVariables>
+	<StudyName>Delphi-FT template round 3</StudyName>
+	<StudyDescription>This file contains the metadata, events, and data for REDCap project "Delphi-FT template round 3".</StudyDescription>
+	<ProtocolName>Delphi-FT template round 3</ProtocolName>
+	<redcap:RecordAutonumberingEnabled>1</redcap:RecordAutonumberingEnabled>
+	<redcap:CustomRecordLabel></redcap:CustomRecordLabel>
+	<redcap:SecondaryUniqueField></redcap:SecondaryUniqueField>
+	<redcap:SchedulingEnabled>0</redcap:SchedulingEnabled>
+	<redcap:SurveysEnabled>1</redcap:SurveysEnabled>
+	<redcap:SurveyInvitationEmailField></redcap:SurveyInvitationEmailField>
+	<redcap:MyCapEnabled>0</redcap:MyCapEnabled>
+	<redcap:Purpose>2</redcap:Purpose>
+	<redcap:PurposeOther>7</redcap:PurposeOther>
+	<redcap:ProjectNotes>Développement méthodologique</redcap:ProjectNotes>
+	<redcap:MissingDataCodes></redcap:MissingDataCodes>
+	<redcap:ProtectedEmailMode>0</redcap:ProtectedEmailMode>
+	<redcap:ProtectedEmailModeCustomText></redcap:ProtectedEmailModeCustomText>
+	<redcap:ProtectedEmailModeTrigger>ALL</redcap:ProtectedEmailModeTrigger>
+	<redcap:ProtectedEmailModeLogo></redcap:ProtectedEmailModeLogo>
+	<redcap:SurveysGroup>
+		<redcap:Surveys form_name="round_3_equestionnaire" title="&quot;Insert here the title of your study&quot;: a fast-track Delphi process (e-questionnaire for step 3)" instructions="&lt;p&gt;You have taken part in the second step of this &lt;em&gt;fast-track Delphi&lt;/em&gt; process a few days ago. We would like to thank you very much for your participation so far.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This questionnaire is the &lt;span style=&quot;text-decoration: underline;&quot;&gt;third and final step&lt;/span&gt; of this &lt;em&gt;fast-track Delphi&lt;/em&gt; process. It contains XX statements divided into XX sections. It should take you between XX and XX minutes to complete.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;We ask you to complete this questionnaire in relation to the results of the previous step, which were sent to you by email (PDF document). It is not mandatory that you change your mind; it is simply a matter of questioning your opinion in light of the group results generated in the previous step.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If necessary, you can always go back to the previous page. Please leave your comments at the end of each statement, in case you wish to qualify or justify your choice of answer. You can also write a general comment at the end of each section. Your answers will be treated with strict confidentiality criteria.&lt;/p&gt;
+&lt;p&gt;In case of technical problems or any other question related to the project, do not hesitate to contact us at xxx.xxx@xxx.xx.&lt;/p&gt;
+&lt;p&gt;We thank you in advance!&lt;/p&gt;" offline_instructions="" acknowledgement="&lt;p&gt;&lt;strong&gt;Thank you very much for completing this questionnaire.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Your answers will now be analyzed according to strict confidentiality criteria. You will receive the final results of this &lt;em&gt;fast-track Delphi&lt;/em&gt; process in due course.&lt;/p&gt;
+&lt;p&gt;In the meantime, if you have any questions about the project, please do not hesitate to contact us at xxx.xxx@xxx.xx.&lt;/p&gt;
+&lt;p&gt;We wish you a very nice day!&lt;/p&gt;" stop_action_acknowledgement="" stop_action_delete_response="0" question_by_section="1" display_page_number="1" question_auto_numbering="0" survey_enabled="1" save_and_return="0" save_and_return_code_bypass="0" logo="" hide_title="0" view_results="0" min_responses_view_results="10" check_diversity_view_results="0" end_survey_redirect_url="" survey_expiration="" promis_skip_question="0" survey_auth_enabled_single="0" edit_completed_response="0" hide_back_button="0" show_required_field_text="1" confirmation_email_subject="" confirmation_email_content="" confirmation_email_from="" confirmation_email_from_display="" confirmation_email_attach_pdf="0" confirmation_email_attachment="" text_to_speech="0" text_to_speech_language="en" end_survey_redirect_next_survey="0" end_survey_redirect_next_survey_logic="" theme="" text_size="1" font_family="16" theme_text_buttons="" theme_bg_page="" theme_text_title="" theme_bg_title="" theme_text_sectionheader="" theme_bg_sectionheader="" theme_text_question="" theme_bg_question="" enhanced_choices="0" repeat_survey_enabled="0" repeat_survey_btn_text="" repeat_survey_btn_location="HIDDEN" response_limit="" response_limit_include_partials="1" response_limit_custom_text="&lt;p&gt;Thank you for your interest; however, the survey is closed because the maximum number of responses has been reached.&lt;/p&gt;" survey_time_limit_days="" survey_time_limit_hours="" survey_time_limit_minutes="" email_participant_field="" end_of_survey_pdf_download="0" pdf_save_to_field="" pdf_save_to_event_id="" pdf_save_translated="0" pdf_auto_archive="0" pdf_econsent_version="" pdf_econsent_type="" pdf_econsent_firstname_field="" pdf_econsent_firstname_event_id="" pdf_econsent_lastname_field="" pdf_econsent_lastname_event_id="" pdf_econsent_dob_field="" pdf_econsent_dob_event_id="" pdf_econsent_allow_edit="1" pdf_econsent_signature_field1="" pdf_econsent_signature_field2="" pdf_econsent_signature_field3="" pdf_econsent_signature_field4="" pdf_econsent_signature_field5="" survey_width_percent="" survey_show_font_resize="1" survey_btn_text_prev_page="" survey_btn_text_next_page="" survey_btn_text_submit="" survey_btn_hide_submit="0" survey_btn_hide_submit_logic=""/>
+	</redcap:SurveysGroup>
+	<redcap:UserRolesGroup>
+		<redcap:UserRoles role_name="Project manager" unique_role_name="U-873C9MCXFK" lock_record="0" lock_record_multiform="0" lock_record_customize="0" data_export_tool="" data_export_instruments="[round_2_equestionnaire,1][round_3_equestionnaire,1]" data_import_tool="0" data_comparison_tool="0" data_logging="0" file_repository="1" double_data="0" user_rights="1" data_access_groups="1" graphical="1" reports="1" design="1" alerts="1" calendar="1" data_entry="[round_2_equestionnaire,1][round_3_equestionnaire,1]" api_export="1" api_import="0" mobile_app="0" mobile_app_download_data="0" record_create="1" record_rename="0" record_delete="0" dts="0" participants="1" data_quality_design="0" data_quality_execute="0" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="0"/>
+	</redcap:UserRolesGroup>
+</GlobalVariables>
+<MetaDataVersion OID="Metadata.DelphiFTTemplateRound3_2023-03-31_1533" Name="Delphi-FT template round 3" redcap:RecordIdField="record_id">
+	<FormDef OID="Form.round_3_equestionnaire" Name="Round 3 e-questionnaire" Repeating="No" redcap:FormName="round_3_equestionnaire">
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.record_id" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_0_email" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_z_s1_type1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_z_s1_type1_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_z_s2_type1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_z_s2_type1_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_z_s3_type1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_z_s3_type1_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_z_comment" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_a_s4_type1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_a_s4_type1_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_a_s5_type1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_a_s5_type1_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_a_s6_type1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_a_s6_type1_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_a_comment" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_b_s7_type1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_b_s7_type1_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_b_s8_type1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_b_s8_type1_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_b_s9_type1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_b_s9_type1_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_b_comment" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_c_s10_type1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_c_s10_type1_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_c_s11_type1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_c_s11_type1_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_c_s12_type1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_c_s12_type1_no_op" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.dft3_c_comment" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="round_3_equestionnaire.round_3_equestionnaire_complete" Mandatory="No"/>
+	</FormDef>
+	<ItemGroupDef OID="round_3_equestionnaire.record_id" Name="Round 3 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="record_id" Mandatory="No" redcap:Variable="record_id"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_0_email" Name="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;In the previous e-questionnaire, you expressed your opinion on the different statements according to one of the 3 possible types of question: level of agreement on a scale of 1 to 9 (type 1), single answer (type 2) or selection of up to 3 answers among a multiple choice (type 3). For each statement, you also had the opportunity to write a comment.&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Among the type-1 questions, XX statements have reached the required level of (dis)agreement and consensus, and therefore do not need to be included in this 3rd step. They are the following statements, given with the median, the interquartile range (IQR) as well as the range (minimum and maximum response):&lt;/span&gt;&lt;/p&gt; &lt;p&gt;Statement XX: &quot;Insert here the affirmative statement XX that has reached consensual (dis)agreement by the end of step 2&quot;&lt;br /&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Median: XX&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;IQR: XX - XX&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Range: XX - XX&lt;/span&gt;&lt;/p&gt; &lt;p&gt;Statement XX: &quot;Insert here the affirmative statement XX that has reached consensual (dis)agreement by the end of step 2&quot;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br /&gt;Median: XX&lt;br /&gt;IQR: XX - XX&lt;br /&gt;Range: XX - XX&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;This Step 3 questionnaire contains statements that did not meet the required criteria of agreement and/or consensus, or for which the comments suggested the need to rephrase, combine or separate them.&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;For each statement of this 3rd step, the reference is given to the corresponding statement(s) of the previous questionnaire. &lt;/span&gt;We invite you to compare your answers, in order to question your opinion in light of the group results.&lt;/p&gt;&lt;/div&gt;" Repeating="No">
+		<ItemRef ItemOID="dft3_0_email" Mandatory="Yes" redcap:Variable="dft3_0_email"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_z_s1_type1" Name="PREAMBLE
+
+Statement 1: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+This statement has been modified from your responses and comments, based on statements XX and XX from step 2 e-questionnaire (see pages XX-XX of your individualized result report).
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." Repeating="No">
+		<ItemRef ItemOID="dft3_z_s1_type1" Mandatory="Yes" redcap:Variable="dft3_z_s1_type1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_z_s1_type1_no_op" Name="Round 3 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft3_z_s1_type1_no_op" Mandatory="No" redcap:Variable="dft3_z_s1_type1_no_op"/>
+		<ItemRef ItemOID="dft3_z_s1_type1_em" Mandatory="No" redcap:Variable="dft3_z_s1_type1_em"/>
+		<ItemRef ItemOID="dft3_z_s1_comment" Mandatory="No" redcap:Variable="dft3_z_s1_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_z_s2_type1" Name="Statement 2: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+This statement has been modified from your responses and comments, based on statements XX and XX from step 2 e-questionnaire (see pages XX-XX of your individualized result report).
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." Repeating="No">
+		<ItemRef ItemOID="dft3_z_s2_type1" Mandatory="Yes" redcap:Variable="dft3_z_s2_type1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_z_s2_type1_no_op" Name="Round 3 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft3_z_s2_type1_no_op" Mandatory="No" redcap:Variable="dft3_z_s2_type1_no_op"/>
+		<ItemRef ItemOID="dft3_z_s2_type1_em" Mandatory="No" redcap:Variable="dft3_z_s2_type1_em"/>
+		<ItemRef ItemOID="dft3_z_s2_comment" Mandatory="No" redcap:Variable="dft3_z_s2_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_z_s3_type1" Name="Statement 3: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+This statement has been modified from your responses and comments, based on statements XX and XX from step 2 e-questionnaire (see pages XX-XX of your individualized result report).
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." Repeating="No">
+		<ItemRef ItemOID="dft3_z_s3_type1" Mandatory="Yes" redcap:Variable="dft3_z_s3_type1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_z_s3_type1_no_op" Name="Round 3 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft3_z_s3_type1_no_op" Mandatory="No" redcap:Variable="dft3_z_s3_type1_no_op"/>
+		<ItemRef ItemOID="dft3_z_s3_type1_em" Mandatory="No" redcap:Variable="dft3_z_s3_type1_em"/>
+		<ItemRef ItemOID="dft3_z_s3_comment" Mandatory="No" redcap:Variable="dft3_z_s3_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_z_comment" Name=" " Repeating="No">
+		<ItemRef ItemOID="dft3_z_comment" Mandatory="No" redcap:Variable="dft3_z_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_a_s4_type1" Name="SECTION A: &quot;Insert here the title of your section A&quot;
+
+This section of the e-questionnaire contains statements related to XXX.
+
+
+Statement 4: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+This statement has been modified from your responses and comments, based on statements XX and XX from step 2 e-questionnaire (see pages XX-XX of your individualized result report).
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." Repeating="No">
+		<ItemRef ItemOID="dft3_a_s4_type1" Mandatory="Yes" redcap:Variable="dft3_a_s4_type1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_a_s4_type1_no_op" Name="Round 3 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft3_a_s4_type1_no_op" Mandatory="No" redcap:Variable="dft3_a_s4_type1_no_op"/>
+		<ItemRef ItemOID="dft3_a_s4_type1_em" Mandatory="No" redcap:Variable="dft3_a_s4_type1_em"/>
+		<ItemRef ItemOID="dft3_a_s4_comment" Mandatory="No" redcap:Variable="dft3_a_s4_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_a_s5_type1" Name="Statement 5: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+This statement has been modified from your responses and comments, based on statements XX and XX from step 2 e-questionnaire (see pages XX-XX of your individualized result report).
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." Repeating="No">
+		<ItemRef ItemOID="dft3_a_s5_type1" Mandatory="Yes" redcap:Variable="dft3_a_s5_type1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_a_s5_type1_no_op" Name="Round 3 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft3_a_s5_type1_no_op" Mandatory="No" redcap:Variable="dft3_a_s5_type1_no_op"/>
+		<ItemRef ItemOID="dft3_a_s5_type1_em" Mandatory="No" redcap:Variable="dft3_a_s5_type1_em"/>
+		<ItemRef ItemOID="dft3_a_s5_comment" Mandatory="No" redcap:Variable="dft3_a_s5_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_a_s6_type1" Name="Statement 6: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+This statement has been modified from your responses and comments, based on statements XX and XX from step 2 e-questionnaire (see pages XX-XX of your individualized result report).
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." Repeating="No">
+		<ItemRef ItemOID="dft3_a_s6_type1" Mandatory="Yes" redcap:Variable="dft3_a_s6_type1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_a_s6_type1_no_op" Name="Round 3 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft3_a_s6_type1_no_op" Mandatory="No" redcap:Variable="dft3_a_s6_type1_no_op"/>
+		<ItemRef ItemOID="dft3_a_s6_type1_em" Mandatory="No" redcap:Variable="dft3_a_s6_type1_em"/>
+		<ItemRef ItemOID="dft3_a_s6_comment" Mandatory="No" redcap:Variable="dft3_a_s6_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_a_comment" Name=" " Repeating="No">
+		<ItemRef ItemOID="dft3_a_comment" Mandatory="No" redcap:Variable="dft3_a_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_b_s7_type1" Name="SECTION B: &quot;Insert here the title of your section B&quot;
+
+This section of the e-questionnaire contains statements related to XXX.
+
+
+Statement 7: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+This statement has been modified from your responses and comments, based on statements XX and XX from step 2 e-questionnaire (see pages XX-XX of your individualized result report).
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." Repeating="No">
+		<ItemRef ItemOID="dft3_b_s7_type1" Mandatory="Yes" redcap:Variable="dft3_b_s7_type1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_b_s7_type1_no_op" Name="Round 3 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft3_b_s7_type1_no_op" Mandatory="No" redcap:Variable="dft3_b_s7_type1_no_op"/>
+		<ItemRef ItemOID="dft3_b_s7_type1_em" Mandatory="No" redcap:Variable="dft3_b_s7_type1_em"/>
+		<ItemRef ItemOID="dft3_b_s7_comment" Mandatory="No" redcap:Variable="dft3_b_s7_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_b_s8_type1" Name="Statement 8: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+This statement has been modified from your responses and comments, based on statements XX and XX from step 2 e-questionnaire (see pages XX-XX of your individualized result report).
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." Repeating="No">
+		<ItemRef ItemOID="dft3_b_s8_type1" Mandatory="Yes" redcap:Variable="dft3_b_s8_type1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_b_s8_type1_no_op" Name="Round 3 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft3_b_s8_type1_no_op" Mandatory="No" redcap:Variable="dft3_b_s8_type1_no_op"/>
+		<ItemRef ItemOID="dft3_b_s8_type1_em" Mandatory="No" redcap:Variable="dft3_b_s8_type1_em"/>
+		<ItemRef ItemOID="dft3_b_s8_comment" Mandatory="No" redcap:Variable="dft3_b_s8_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_b_s9_type1" Name="Statement 9: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+This statement has been modified from your responses and comments, based on statements XX and XX from step 2 e-questionnaire (see pages XX-XX of your individualized result report).
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." Repeating="No">
+		<ItemRef ItemOID="dft3_b_s9_type1" Mandatory="Yes" redcap:Variable="dft3_b_s9_type1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_b_s9_type1_no_op" Name="Round 3 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft3_b_s9_type1_no_op" Mandatory="No" redcap:Variable="dft3_b_s9_type1_no_op"/>
+		<ItemRef ItemOID="dft3_b_s9_type1_em" Mandatory="No" redcap:Variable="dft3_b_s9_type1_em"/>
+		<ItemRef ItemOID="dft3_b_s9_comment" Mandatory="No" redcap:Variable="dft3_b_s9_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_b_comment" Name=" " Repeating="No">
+		<ItemRef ItemOID="dft3_b_comment" Mandatory="No" redcap:Variable="dft3_b_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_c_s10_type1" Name="SECTION C: &quot;Insert here the title of your section C&quot;
+
+This section of the e-questionnaire contains statements related to XXX.
+
+
+Statement 10: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+This statement has been modified from your responses and comments, based on statements XX and XX from step 2 e-questionnaire (see pages XX-XX of your individualized result report).
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." Repeating="No">
+		<ItemRef ItemOID="dft3_c_s10_type1" Mandatory="Yes" redcap:Variable="dft3_c_s10_type1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_c_s10_type1_no_op" Name="Round 3 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft3_c_s10_type1_no_op" Mandatory="No" redcap:Variable="dft3_c_s10_type1_no_op"/>
+		<ItemRef ItemOID="dft3_c_s10_type1_em" Mandatory="No" redcap:Variable="dft3_c_s10_type1_em"/>
+		<ItemRef ItemOID="dft3_c_s10_comment" Mandatory="No" redcap:Variable="dft3_c_s10_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_c_s11_type1" Name="Statement 11: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+This statement has been modified from your responses and comments, based on statements XX and XX from step 2 e-questionnaire (see pages XX-XX of your individualized result report).
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." Repeating="No">
+		<ItemRef ItemOID="dft3_c_s11_type1" Mandatory="Yes" redcap:Variable="dft3_c_s11_type1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_c_s11_type1_no_op" Name="Round 3 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft3_c_s11_type1_no_op" Mandatory="No" redcap:Variable="dft3_c_s11_type1_no_op"/>
+		<ItemRef ItemOID="dft3_c_s11_type1_em" Mandatory="No" redcap:Variable="dft3_c_s11_type1_em"/>
+		<ItemRef ItemOID="dft3_c_s11_comment" Mandatory="No" redcap:Variable="dft3_c_s11_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_c_s12_type1" Name="Statement 12: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+This statement has been modified from your responses and comments, based on statements XX and XX from step 2 e-questionnaire (see pages XX-XX of your individualized result report).
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." Repeating="No">
+		<ItemRef ItemOID="dft3_c_s12_type1" Mandatory="Yes" redcap:Variable="dft3_c_s12_type1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_c_s12_type1_no_op" Name="Round 3 e-questionnaire" Repeating="No">
+		<ItemRef ItemOID="dft3_c_s12_type1_no_op" Mandatory="No" redcap:Variable="dft3_c_s12_type1_no_op"/>
+		<ItemRef ItemOID="dft3_c_s12_type1_em" Mandatory="No" redcap:Variable="dft3_c_s12_type1_em"/>
+		<ItemRef ItemOID="dft3_c_s12_comment" Mandatory="No" redcap:Variable="dft3_c_s12_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.dft3_c_comment" Name=" " Repeating="No">
+		<ItemRef ItemOID="dft3_c_comment" Mandatory="No" redcap:Variable="dft3_c_comment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="round_3_equestionnaire.round_3_equestionnaire_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="round_3_equestionnaire_complete" Mandatory="No" redcap:Variable="round_3_equestionnaire_complete"/>
+	</ItemGroupDef>
+	<ItemDef OID="record_id" Name="record_id" DataType="text" Length="999" redcap:Variable="record_id" redcap:FieldType="text">
+		<Question><TranslatedText>Record ID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_0_email" Name="dft3_0_email" DataType="text" Length="999" redcap:Variable="dft3_0_email" redcap:FieldType="text" redcap:TextValidationType="email" redcap:FieldNote="This field will be used to create the final, individual and confidential result reports." redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;In the previous e-questionnaire, you expressed your opinion on the different statements according to one of the 3 possible types of question: level of agreement on a scale of 1 to 9 (type 1), single answer (type 2) or selection of up to 3 answers among a multiple choice (type 3). For each statement, you also had the opportunity to write a comment.&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Among the type-1 questions, XX statements have reached the required level of (dis)agreement and consensus, and therefore do not need to be included in this 3rd step. They are the following statements, given with the median, the interquartile range (IQR) as well as the range (minimum and maximum response):&lt;/span&gt;&lt;/p&gt; &lt;p&gt;Statement XX: &quot;Insert here the affirmative statement XX that has reached consensual (dis)agreement by the end of step 2&quot;&lt;br /&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Median: XX&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;IQR: XX - XX&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Range: XX - XX&lt;/span&gt;&lt;/p&gt; &lt;p&gt;Statement XX: &quot;Insert here the affirmative statement XX that has reached consensual (dis)agreement by the end of step 2&quot;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br /&gt;Median: XX&lt;br /&gt;IQR: XX - XX&lt;br /&gt;Range: XX - XX&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;This Step 3 questionnaire contains statements that did not meet the required criteria of agreement and/or consensus, or for which the comments suggested the need to rephrase, combine or separate them.&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;For each statement of this 3rd step, the reference is given to the corresponding statement(s) of the previous questionnaire. &lt;/span&gt;We invite you to compare your answers, in order to question your opinion in light of the group results.&lt;/p&gt;&lt;/div&gt;" redcap:Identifier="y" redcap:RequiredField="y">
+		<Question><TranslatedText>Please indicate your email:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_z_s1_type1" Name="dft3_z_s1_type1" DataType="text" Length="1" redcap:Variable="dft3_z_s1_type1" redcap:FieldType="radio" redcap:SectionHeader="PREAMBLE
+
+Statement 1: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+This statement has been modified from your responses and comments, based on statements XX and XX from step 2 e-questionnaire (see pages XX-XX of your individualized result report).
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." redcap:RequiredField="y" redcap:BranchingLogic="[dft3_z_s1_type1_no_op] &lt;&gt; &#039;10&#039;" redcap:MatrixGroupName="dft3_z_s1_mat">
+		<Question><TranslatedText>Statement 1: &quot;Insert here a type-1 question (format: affirmative statement).&quot;</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft3_z_s1_type1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft3_z_s1_type1_no_op" Name="dft3_z_s1_type1_no_op" DataType="text" Length="2" redcap:Variable="dft3_z_s1_type1_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft3_z_s1_type1_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft3_z_s1_type1_em" Name="dft3_z_s1_type1_em" DataType="text" Length="999" redcap:Variable="dft3_z_s1_type1_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   {dft3_z_s1_type1} {dft3_z_s1_type1_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft3_z_s1_type1}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;{dft3_z_s1_type1_no_op}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_z_s1_comment" Name="dft3_z_s1_comment" DataType="text" Length="999" redcap:Variable="dft3_z_s1_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 1 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_z_s2_type1" Name="dft3_z_s2_type1" DataType="text" Length="1" redcap:Variable="dft3_z_s2_type1" redcap:FieldType="radio" redcap:SectionHeader="Statement 2: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+This statement has been modified from your responses and comments, based on statements XX and XX from step 2 e-questionnaire (see pages XX-XX of your individualized result report).
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." redcap:RequiredField="y" redcap:BranchingLogic="[dft3_z_s2_type1_no_op] &lt;&gt; &#039;10&#039;" redcap:MatrixGroupName="dft3_z_s2_mat">
+		<Question><TranslatedText>Statement 2: &quot;Insert here a type-1 question (format: affirmative statement).&quot;</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft3_z_s2_type1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft3_z_s2_type1_no_op" Name="dft3_z_s2_type1_no_op" DataType="text" Length="2" redcap:Variable="dft3_z_s2_type1_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft3_z_s2_type1_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft3_z_s2_type1_em" Name="dft3_z_s2_type1_em" DataType="text" Length="999" redcap:Variable="dft3_z_s2_type1_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   {dft3_z_s2_type1} {dft3_z_s2_type1_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft3_z_s2_type1}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;{dft3_z_s2_type1_no_op}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_z_s2_comment" Name="dft3_z_s2_comment" DataType="text" Length="999" redcap:Variable="dft3_z_s2_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 2 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_z_s3_type1" Name="dft3_z_s3_type1" DataType="text" Length="1" redcap:Variable="dft3_z_s3_type1" redcap:FieldType="radio" redcap:SectionHeader="Statement 3: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+This statement has been modified from your responses and comments, based on statements XX and XX from step 2 e-questionnaire (see pages XX-XX of your individualized result report).
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." redcap:RequiredField="y" redcap:BranchingLogic="[dft3_z_s3_type1_no_op] &lt;&gt; &#039;10&#039;" redcap:MatrixGroupName="dft3_z_s3_mat">
+		<Question><TranslatedText>Statement 3: &quot;Insert here a type-1 question (format: affirmative statement).&quot;</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft3_z_s3_type1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft3_z_s3_type1_no_op" Name="dft3_z_s3_type1_no_op" DataType="text" Length="2" redcap:Variable="dft3_z_s3_type1_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft3_z_s3_type1_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft3_z_s3_type1_em" Name="dft3_z_s3_type1_em" DataType="text" Length="999" redcap:Variable="dft3_z_s3_type1_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   {dft3_z_s3_type1} {dft3_z_s3_type1_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft3_z_s3_type1}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;{dft3_z_s3_type1_no_op}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_z_s3_comment" Name="dft3_z_s3_comment" DataType="text" Length="999" redcap:Variable="dft3_z_s3_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 3 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_z_comment" Name="dft3_z_comment" DataType="text" Length="999" redcap:Variable="dft3_z_comment" redcap:FieldType="textarea" redcap:SectionHeader=" ">
+		<Question><TranslatedText>PREAMBLE
+
+Please indicate here, if you want to, any additional comment related to this section [optional]:</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;PREAMBLE&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please indicate here, if you want to, any additional comment related to this section [optional]:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_a_s4_type1" Name="dft3_a_s4_type1" DataType="text" Length="1" redcap:Variable="dft3_a_s4_type1" redcap:FieldType="radio" redcap:SectionHeader="SECTION A: &quot;Insert here the title of your section A&quot;
+
+This section of the e-questionnaire contains statements related to XXX.
+
+
+Statement 4: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+This statement has been modified from your responses and comments, based on statements XX and XX from step 2 e-questionnaire (see pages XX-XX of your individualized result report).
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." redcap:RequiredField="y" redcap:BranchingLogic="[dft3_a_s4_type1_no_op] &lt;&gt; &#039;10&#039;" redcap:MatrixGroupName="dft3_a_s4_mat">
+		<Question><TranslatedText>Statement 4: &quot;Insert here a type-1 question (format: affirmative statement).&quot;</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft3_a_s4_type1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft3_a_s4_type1_no_op" Name="dft3_a_s4_type1_no_op" DataType="text" Length="2" redcap:Variable="dft3_a_s4_type1_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft3_a_s4_type1_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft3_a_s4_type1_em" Name="dft3_a_s4_type1_em" DataType="text" Length="999" redcap:Variable="dft3_a_s4_type1_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   {dft3_a_s4_type1} {dft3_a_s4_type1_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft3_a_s4_type1}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;{dft3_a_s4_type1_no_op}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_a_s4_comment" Name="dft3_a_s4_comment" DataType="text" Length="999" redcap:Variable="dft3_a_s4_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 4 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_a_s5_type1" Name="dft3_a_s5_type1" DataType="text" Length="1" redcap:Variable="dft3_a_s5_type1" redcap:FieldType="radio" redcap:SectionHeader="Statement 5: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+This statement has been modified from your responses and comments, based on statements XX and XX from step 2 e-questionnaire (see pages XX-XX of your individualized result report).
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." redcap:RequiredField="y" redcap:BranchingLogic="[dft3_a_s5_type1_no_op] &lt;&gt; &#039;10&#039;" redcap:MatrixGroupName="dft3_a_s5_type1">
+		<Question><TranslatedText>Statement 5: &quot;Insert here a type-1 question (format: affirmative statement).&quot;</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft3_a_s5_type1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft3_a_s5_type1_no_op" Name="dft3_a_s5_type1_no_op" DataType="text" Length="2" redcap:Variable="dft3_a_s5_type1_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft3_a_s5_type1_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft3_a_s5_type1_em" Name="dft3_a_s5_type1_em" DataType="text" Length="999" redcap:Variable="dft3_a_s5_type1_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   {dft3_a_s5_type1} {dft3_a_s5_type1_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft3_a_s5_type1}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;{dft3_a_s5_type1_no_op}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_a_s5_comment" Name="dft3_a_s5_comment" DataType="text" Length="999" redcap:Variable="dft3_a_s5_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 5 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_a_s6_type1" Name="dft3_a_s6_type1" DataType="text" Length="1" redcap:Variable="dft3_a_s6_type1" redcap:FieldType="radio" redcap:SectionHeader="Statement 6: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+This statement has been modified from your responses and comments, based on statements XX and XX from step 2 e-questionnaire (see pages XX-XX of your individualized result report).
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." redcap:RequiredField="y" redcap:BranchingLogic="[dft3_a_s6_type1_no_op] &lt;&gt; &#039;10&#039;" redcap:MatrixGroupName="dft3_a_s6_mat">
+		<Question><TranslatedText>Statement 6: &quot;Insert here a type-1 question (format: affirmative statement).&quot;</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft3_a_s6_type1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft3_a_s6_type1_no_op" Name="dft3_a_s6_type1_no_op" DataType="text" Length="2" redcap:Variable="dft3_a_s6_type1_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft3_a_s6_type1_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft3_a_s6_type1_em" Name="dft3_a_s6_type1_em" DataType="text" Length="999" redcap:Variable="dft3_a_s6_type1_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   {dft3_a_s6_type1} {dft3_a_s6_type1_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft3_a_s6_type1}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;{dft3_a_s6_type1_no_op}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_a_s6_comment" Name="dft3_a_s6_comment" DataType="text" Length="999" redcap:Variable="dft3_a_s6_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 6 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_a_comment" Name="dft3_a_comment" DataType="text" Length="999" redcap:Variable="dft3_a_comment" redcap:FieldType="textarea" redcap:SectionHeader=" ">
+		<Question><TranslatedText>SECTION A: &quot;Insert here the title of your section A&quot;
+
+Please indicate here, if you want to, any additional comment related to this section [optional]:</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;SECTION A: &quot;Insert here the title of your section A&quot;&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please indicate here, if you want to, any additional comment related to this section [optional]:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_b_s7_type1" Name="dft3_b_s7_type1" DataType="text" Length="1" redcap:Variable="dft3_b_s7_type1" redcap:FieldType="radio" redcap:SectionHeader="SECTION B: &quot;Insert here the title of your section B&quot;
+
+This section of the e-questionnaire contains statements related to XXX.
+
+
+Statement 7: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+This statement has been modified from your responses and comments, based on statements XX and XX from step 2 e-questionnaire (see pages XX-XX of your individualized result report).
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." redcap:RequiredField="y" redcap:BranchingLogic="[dft3_b_s7_type1_no_op] &lt;&gt; &#039;10&#039;" redcap:MatrixGroupName="dft3_b_s7_mat">
+		<Question><TranslatedText>Statement 7: &quot;Insert here a type-1 question (format: affirmative statement).&quot;</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft3_b_s7_type1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft3_b_s7_type1_no_op" Name="dft3_b_s7_type1_no_op" DataType="text" Length="2" redcap:Variable="dft3_b_s7_type1_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft3_b_s7_type1_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft3_b_s7_type1_em" Name="dft3_b_s7_type1_em" DataType="text" Length="999" redcap:Variable="dft3_b_s7_type1_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   {dft3_b_s7_type1} {dft3_b_s7_type1_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft3_b_s7_type1}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;{dft3_b_s7_type1_no_op}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_b_s7_comment" Name="dft3_b_s7_comment" DataType="text" Length="999" redcap:Variable="dft3_b_s7_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 7 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_b_s8_type1" Name="dft3_b_s8_type1" DataType="text" Length="1" redcap:Variable="dft3_b_s8_type1" redcap:FieldType="radio" redcap:SectionHeader="Statement 8: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+This statement has been modified from your responses and comments, based on statements XX and XX from step 2 e-questionnaire (see pages XX-XX of your individualized result report).
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." redcap:RequiredField="y" redcap:BranchingLogic="[dft3_b_s8_type1_no_op] &lt;&gt; &#039;10&#039;" redcap:MatrixGroupName="dft3_b_s8_mat">
+		<Question><TranslatedText>Statement 8: &quot;Insert here a type-1 question (format: affirmative statement).&quot;</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft3_b_s8_type1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft3_b_s8_type1_no_op" Name="dft3_b_s8_type1_no_op" DataType="text" Length="2" redcap:Variable="dft3_b_s8_type1_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft3_b_s8_type1_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft3_b_s8_type1_em" Name="dft3_b_s8_type1_em" DataType="text" Length="999" redcap:Variable="dft3_b_s8_type1_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   {dft3_b_s8_type1} {dft3_b_s8_type1_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft3_b_s8_type1}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;{dft3_b_s8_type1_no_op}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_b_s8_comment" Name="dft3_b_s8_comment" DataType="text" Length="999" redcap:Variable="dft3_b_s8_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 8 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_b_s9_type1" Name="dft3_b_s9_type1" DataType="text" Length="1" redcap:Variable="dft3_b_s9_type1" redcap:FieldType="radio" redcap:SectionHeader="Statement 9: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+This statement has been modified from your responses and comments, based on statements XX and XX from step 2 e-questionnaire (see pages XX-XX of your individualized result report).
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." redcap:RequiredField="y" redcap:BranchingLogic="[dft3_b_s9_type1_no_op] &lt;&gt; &#039;10&#039;" redcap:MatrixGroupName="dft3_b_s9_mat">
+		<Question><TranslatedText>Statement 9: &quot;Insert here a type-1 question (format: affirmative statement).&quot;</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft3_b_s9_type1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft3_b_s9_type1_no_op" Name="dft3_b_s9_type1_no_op" DataType="text" Length="2" redcap:Variable="dft3_b_s9_type1_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft3_b_s9_type1_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft3_b_s9_type1_em" Name="dft3_b_s9_type1_em" DataType="text" Length="999" redcap:Variable="dft3_b_s9_type1_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   {dft3_b_s9_type1} {dft3_b_s9_type1_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft3_b_s9_type1}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;{dft3_b_s9_type1_no_op}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_b_s9_comment" Name="dft3_b_s9_comment" DataType="text" Length="999" redcap:Variable="dft3_b_s9_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 9 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_b_comment" Name="dft3_b_comment" DataType="text" Length="999" redcap:Variable="dft3_b_comment" redcap:FieldType="textarea" redcap:SectionHeader=" ">
+		<Question><TranslatedText>SECTION B: &quot;Insert here the title of your section B&quot;
+
+Please indicate here, if you want to, any additional comment related to this section [optional]:</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;SECTION B: &quot;Insert here the title of your section B&quot;&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please indicate here, if you want to, any additional comment related to this section [optional]:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_c_s10_type1" Name="dft3_c_s10_type1" DataType="text" Length="1" redcap:Variable="dft3_c_s10_type1" redcap:FieldType="radio" redcap:SectionHeader="SECTION C: &quot;Insert here the title of your section C&quot;
+
+This section of the e-questionnaire contains statements related to XXX.
+
+
+Statement 10: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+This statement has been modified from your responses and comments, based on statements XX and XX from step 2 e-questionnaire (see pages XX-XX of your individualized result report).
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." redcap:RequiredField="y" redcap:BranchingLogic="[dft3_c_s10_type1_no_op] &lt;&gt; &#039;10&#039;" redcap:MatrixGroupName="dft3_c_s10_mat">
+		<Question><TranslatedText>Statement 10: &quot;Insert here a type-1 question (format: affirmative statement).&quot;</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft3_c_s10_type1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft3_c_s10_type1_no_op" Name="dft3_c_s10_type1_no_op" DataType="text" Length="2" redcap:Variable="dft3_c_s10_type1_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft3_c_s10_type1_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft3_c_s10_type1_em" Name="dft3_c_s10_type1_em" DataType="text" Length="999" redcap:Variable="dft3_c_s10_type1_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   {dft3_c_s10_type1} {dft3_c_s10_type1_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft3_c_s10_type1}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;{dft3_c_s10_type1_no_op}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_c_s10_comment" Name="dft3_c_s10_comment" DataType="text" Length="999" redcap:Variable="dft3_c_s10_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 10 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_c_s11_type1" Name="dft3_c_s11_type1" DataType="text" Length="1" redcap:Variable="dft3_c_s11_type1" redcap:FieldType="radio" redcap:SectionHeader="Statement 11: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+This statement has been modified from your responses and comments, based on statements XX and XX from step 2 e-questionnaire (see pages XX-XX of your individualized result report).
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." redcap:RequiredField="y" redcap:BranchingLogic="[dft3_c_s11_type1_no_op] &lt;&gt; &#039;10&#039;" redcap:MatrixGroupName="dft3_c_s11_mat">
+		<Question><TranslatedText>Statement 11: &quot;Insert here a type-1 question (format: affirmative statement).&quot;</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft3_c_s11_type1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft3_c_s11_type1_no_op" Name="dft3_c_s11_type1_no_op" DataType="text" Length="2" redcap:Variable="dft3_c_s11_type1_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft3_c_s11_type1_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft3_c_s11_type1_em" Name="dft3_c_s11_type1_em" DataType="text" Length="999" redcap:Variable="dft3_c_s11_type1_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   {dft3_c_s11_type1} {dft3_c_s11_type1_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft3_c_s11_type1}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;{dft3_c_s11_type1_no_op}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_c_s11_comment" Name="dft3_c_s11_comment" DataType="text" Length="999" redcap:Variable="dft3_c_s11_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 11 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_c_s12_type1" Name="dft3_c_s12_type1" DataType="text" Length="1" redcap:Variable="dft3_c_s12_type1" redcap:FieldType="radio" redcap:SectionHeader="Statement 12: &quot;Insert here a type-1 question (format: affirmative statement).&quot;
+
+This statement has been modified from your responses and comments, based on statements XX and XX from step 2 e-questionnaire (see pages XX-XX of your individualized result report).
+
+Please indicate your level of agreement with the statement, on a scale from 1 (= total disagreement) to 9 (= total agreement)." redcap:RequiredField="y" redcap:BranchingLogic="[dft3_c_s12_type1_no_op] &lt;&gt; &#039;10&#039;" redcap:MatrixGroupName="dft3_c_s12_mat">
+		<Question><TranslatedText>Statement 12: &quot;Insert here a type-1 question (format: affirmative statement).&quot;</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft3_c_s12_type1.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft3_c_s12_type1_no_op" Name="dft3_c_s12_type1_no_op" DataType="text" Length="2" redcap:Variable="dft3_c_s12_type1_no_op" redcap:FieldType="radio" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Question>
+		<CodeListRef CodeListOID="dft3_c_s12_type1_no_op.choices"/>
+	</ItemDef>
+	<ItemDef OID="dft3_c_s12_type1_em" Name="dft3_c_s12_type1_em" DataType="text" Length="999" redcap:Variable="dft3_c_s12_type1_em" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   {dft3_c_s12_type1} {dft3_c_s12_type1_no_op}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 18px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 18px;&quot;&gt; &lt;td style=&quot;width: 71.9236%; height: 18px; vertical-align: bottom;&quot;&gt;{dft3_c_s12_type1}&lt;/td&gt; &lt;td style=&quot;font-size: 12px; font-weight: bold; vertical-align: bottom; text-align: right;&quot;&gt;{dft3_c_s12_type1_no_op}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_c_s12_comment" Name="dft3_c_s12_comment" DataType="text" Length="999" redcap:Variable="dft3_c_s12_comment" redcap:FieldType="textarea">
+		<Question><TranslatedText>Statement 12 - Comment to qualify or justify your answer [optional]:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dft3_c_comment" Name="dft3_c_comment" DataType="text" Length="999" redcap:Variable="dft3_c_comment" redcap:FieldType="textarea" redcap:SectionHeader=" ">
+		<Question><TranslatedText>SECTION C: &quot;Insert here the title of your section C&quot;
+
+Please indicate here, if you want to, any additional comment related to this section [optional]:</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;SECTION C: &quot;Insert here the title of your section C&quot;&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please indicate here, if you want to, any additional comment related to this section [optional]:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="round_3_equestionnaire_complete" Name="round_3_equestionnaire_complete" DataType="text" Length="1" redcap:Variable="round_3_equestionnaire_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="round_3_equestionnaire_complete.choices"/>
+	</ItemDef>
+	<CodeList OID="dft3_z_s1_type1.choices" Name="dft3_z_s1_type1" DataType="text" redcap:Variable="dft3_z_s1_type1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Total disagreement (1)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>(2)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Disagreement (3)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>(4)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Neutral (5)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>(6)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Agreement (7)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>(8)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Total agreement (9)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft3_z_s1_type1_no_op.choices" Name="dft3_z_s1_type1_no_op" DataType="text" redcap:Variable="dft3_z_s1_type1_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft3_z_s2_type1.choices" Name="dft3_z_s2_type1" DataType="text" redcap:Variable="dft3_z_s2_type1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Total disagreement (1)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>(2)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Disagreement (3)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>(4)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Neutral (5)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>(6)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Agreement (7)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>(8)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Total agreement (9)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft3_z_s2_type1_no_op.choices" Name="dft3_z_s2_type1_no_op" DataType="text" redcap:Variable="dft3_z_s2_type1_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft3_z_s3_type1.choices" Name="dft3_z_s3_type1" DataType="text" redcap:Variable="dft3_z_s3_type1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Total disagreement (1)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>(2)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Disagreement (3)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>(4)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Neutral (5)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>(6)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Agreement (7)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>(8)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Total agreement (9)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft3_z_s3_type1_no_op.choices" Name="dft3_z_s3_type1_no_op" DataType="text" redcap:Variable="dft3_z_s3_type1_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft3_a_s4_type1.choices" Name="dft3_a_s4_type1" DataType="text" redcap:Variable="dft3_a_s4_type1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Total disagreement (1)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>(2)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Disagreement (3)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>(4)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Neutral (5)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>(6)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Agreement (7)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>(8)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Total agreement (9)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft3_a_s4_type1_no_op.choices" Name="dft3_a_s4_type1_no_op" DataType="text" redcap:Variable="dft3_a_s4_type1_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft3_a_s5_type1.choices" Name="dft3_a_s5_type1" DataType="text" redcap:Variable="dft3_a_s5_type1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Total disagreement (1)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>(2)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Disagreement (3)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>(4)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Neutral (5)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>(6)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Agreement (7)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>(8)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Total agreement (9)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft3_a_s5_type1_no_op.choices" Name="dft3_a_s5_type1_no_op" DataType="text" redcap:Variable="dft3_a_s5_type1_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft3_a_s6_type1.choices" Name="dft3_a_s6_type1" DataType="text" redcap:Variable="dft3_a_s6_type1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Total disagreement (1)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>(2)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Disagreement (3)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>(4)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Neutral (5)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>(6)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Agreement (7)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>(8)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Total agreement (9)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft3_a_s6_type1_no_op.choices" Name="dft3_a_s6_type1_no_op" DataType="text" redcap:Variable="dft3_a_s6_type1_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft3_b_s7_type1.choices" Name="dft3_b_s7_type1" DataType="text" redcap:Variable="dft3_b_s7_type1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Total disagreement (1)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>(2)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Disagreement (3)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>(4)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Neutral (5)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>(6)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Agreement (7)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>(8)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Total agreement (9)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft3_b_s7_type1_no_op.choices" Name="dft3_b_s7_type1_no_op" DataType="text" redcap:Variable="dft3_b_s7_type1_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft3_b_s8_type1.choices" Name="dft3_b_s8_type1" DataType="text" redcap:Variable="dft3_b_s8_type1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Total disagreement (1)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>(2)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Disagreement (3)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>(4)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Neutral (5)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>(6)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Agreement (7)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>(8)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Total agreement (9)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft3_b_s8_type1_no_op.choices" Name="dft3_b_s8_type1_no_op" DataType="text" redcap:Variable="dft3_b_s8_type1_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft3_b_s9_type1.choices" Name="dft3_b_s9_type1" DataType="text" redcap:Variable="dft3_b_s9_type1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Total disagreement (1)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>(2)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Disagreement (3)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>(4)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Neutral (5)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>(6)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Agreement (7)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>(8)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Total agreement (9)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft3_b_s9_type1_no_op.choices" Name="dft3_b_s9_type1_no_op" DataType="text" redcap:Variable="dft3_b_s9_type1_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft3_c_s10_type1.choices" Name="dft3_c_s10_type1" DataType="text" redcap:Variable="dft3_c_s10_type1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Total disagreement (1)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>(2)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Disagreement (3)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>(4)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Neutral (5)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>(6)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Agreement (7)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>(8)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Total agreement (9)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft3_c_s10_type1_no_op.choices" Name="dft3_c_s10_type1_no_op" DataType="text" redcap:Variable="dft3_c_s10_type1_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft3_c_s11_type1.choices" Name="dft3_c_s11_type1" DataType="text" redcap:Variable="dft3_c_s11_type1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Total disagreement (1)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>(2)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Disagreement (3)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>(4)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Neutral (5)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>(6)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Agreement (7)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>(8)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Total agreement (9)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft3_c_s11_type1_no_op.choices" Name="dft3_c_s11_type1_no_op" DataType="text" redcap:Variable="dft3_c_s11_type1_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft3_c_s12_type1.choices" Name="dft3_c_s12_type1" DataType="text" redcap:Variable="dft3_c_s12_type1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Total disagreement (1)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>(2)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Disagreement (3)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>(4)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Neutral (5)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>(6)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Agreement (7)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>(8)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Total agreement (9)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dft3_c_s12_type1_no_op.choices" Name="dft3_c_s12_type1_no_op" DataType="text" redcap:Variable="dft3_c_s12_type1_no_op">
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>I do not want or do not wish to state my level of agreement with this statement.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="round_3_equestionnaire_complete.choices" Name="round_3_equestionnaire_complete" DataType="text" redcap:Variable="round_3_equestionnaire_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+</MetaDataVersion>
+</Study>
+</ODM>
