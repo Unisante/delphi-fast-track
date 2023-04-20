@@ -67,9 +67,9 @@ heading_questions_type1 <- "Type 1 Questions"
 heading_questions_type2 <- "Type 2 Questions"
 heading_questions_type3 <- "Type 3 Questions"
 
-heading_comment_section <- "Comments on section"
+heading_comment_section <- "Comments on "
 
-email_recipient_text <- "Individualised report for : " # used in individual reports
+email_recipient_text <- "Individualised report for: " # used in individual reports
 
 
 ## 1. define metrics --------------------------------------------
