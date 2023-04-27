@@ -1,4 +1,6 @@
-# Fast-track Delphi: code only
+---
+title: "Fast-track Delphi: code only"
+---
 
 ## Purpose
 
@@ -18,20 +20,14 @@ In order to produce results in a very short time frame, we use an [R project](ht
 
 This document is part of a toolkit:
 
--   Code only
+-   Code only [![](https://img.shields.io/badge/doi-10.16909/dataset/40-blue.svg)](https://doi.org/10.16909/dataset/40)
 
-    Duperrex O and Velarde Crézé C. Fast-track Delphi: code only. v0.4. 2023. Département Promotion de la santé et préventions, Unisanté, Lausanne, Suisse. Available from: <https://github.com/Unisante/delphi-fast-track>
+-   Demonstration set (code, anonymized dataset and outputs) [![](https://img.shields.io/badge/doi-10.16909/dataset/41-blue.svg)](https://doi.org/10.16909/dataset/41)
 
--   Demonstration set (code, anonymized dataset and outputs)
-
-    Duperrex O and Velarde Crézé C. Fast-track Delphi: code with demo data and results. v0.4. 2023. Département Promotion de la santé et préventions, Unisanté, Lausanne, Suisse. Available from: <https://github.com/Unisante/delphi-fast-track-demo>
-
--   User guide
-
-    Duperrex O and Velarde Crézé C. Fast-track Delphi: user guide. v0.4. 2023. Département Promotion de la santé et préventions, Unisanté, Lausanne, Suisse. Available from: <https://github.com/Unisante/delphi-fast-track-user-guide>
-
+-   User guide [![](https://img.shields.io/badge/doi-10.16909/dataset/39-blue.svg)](https://doi.org/10.16909/dataset/39)
 
 Please go through the [Fast-track Delphi: user guide](https://github.com/Unisante/delphi-fast-track-user-guide) to discover the steps with demo data, see what it produces and then try it out.
+
 
 
 ## Softwares and packages
@@ -45,12 +41,22 @@ Please go through the [Fast-track Delphi: user guide](https://github.com/Unisant
 -   reports : [**`officedown`**](https://ardata-fr.github.io/officeverse/officedown-for-word.html) which builds on [**`bookdown`**](https://pkgs.rstudio.com/bookdown/), and [**`flextable`**](https://davidgohel.github.io/flextable/) from the [**`officeverse`**](https://ardata-fr.github.io/officeverse/index.html)
 
 
+## Authors
+
+- Olivier Duperrex <a href="https://orcid.org/0000-0002-0932-6846">
+<img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
+</a>
 
 
-## Authors - link to orcid page
+- Camille Velarde Crézé <a href=" https://orcid.org/0000-0002-4686-9401">
+<img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
+</a>
 
--   [Olivier Duperrex](https://orcid.org/0000-0002-0932-6846)
--   [Camille Velarde Crézé](https://orcid.org/0000-0002-4686-9401)
+## Citation
+
+Please use the following to cite this document :
+
+Duperrex O and Velarde Crézé C. Fast-track Delphi: code only. v0.4. 2023. Département Promotion de la santé et préventions, Unisanté, Lausanne, Suisse. Available from: [https://github.com/Unisante/delphi-fast-track](https://github.com/Unisante/delphi-fast-track). DOI: [10.16909/dataset/40](https://doi.org/10.16909/dataset/40)
 
 ## Licence
 
@@ -58,4 +64,3 @@ Please go through the [Fast-track Delphi: user guide](https://github.com/Unisant
 
 ![CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png){fig-align="left"}
 
-Citation: Duperrex O and Velarde Crézé C. Fast-track Delphi: code only. v0.4. 2023. Département Promotion de la santé et préventions, Unisanté, Lausanne, Suisse. Available from: <https://github.com/Unisante/delphi-fast-track>
