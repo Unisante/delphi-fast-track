@@ -1,6 +1,6 @@
 ## 000_parameters.R
 ## Prepared by olivier.duperrex@unisante.ch
-## Modified on 2023-03-13
+## Modified on 2023-05-08
 ## 
 ## Elements that can be modified according to the topic, the language,
 ## and desired adjustments on the output
@@ -17,6 +17,8 @@
 ## . paths ---------------------------------------------------------
 
 path_to_my_token <- here::here(token_delphi_ft_this_project.R)
+## if you see an error message : object 'token_delphi_ft_this_project.R' not found,
+## open 'token_delphi_ft_this_project.R.example' and follow the instructions
 
 source(path_to_my_token, encoding = 'UTF-8') # returns redcap_uri, token_dft2 and token_dft3
 
@@ -27,7 +29,7 @@ path_texts_intro_server <- "//path/to/your/server/texts_intro" # replace with yo
 
 
 ## . authors ----
-authors_text <- "Camille Velarde Crézé, Olivier Duperrex - Unisanté"
+authors_text <- "Camille Velarde Crézé, Olivier Duperrex - Unisanté" # replace with yours
 
 ## . email_tester ---------------------------------------------------
 email_tester <- c('participant_27@some.email', 'tester_2@some.email')
