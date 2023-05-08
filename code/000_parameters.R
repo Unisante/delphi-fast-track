@@ -16,21 +16,9 @@
 ## 0. general elements --------------------------------------------------------
 ## . paths ---------------------------------------------------------
 
-path_to_my_token <- "C:/Users/xxx/Documents/_analyses/_tokens/token_delphi_ft_testxml.R" # replace with yours - not used in demo
+path_to_my_token <- here::here(token_delphi_ft_this_project.R)
 
-
-source(path_to_my_token, encoding = 'UTF-8') # returns uri_redcap_your_institution and token_dft2_your_project
-
-# redcap_uri <- uri_redcap_your_institution  # this need to be modified if you are not using the redcap of unisante
-#
-# token_dft2 <- token_dft2_your_project
-# token_dft3 <- token_dft3_your_project
-
-redcap_uri <- uri_redcap_unisante
-
-token_dft2 <- token_dft2_testxml
-token_dft3 <- token_dft3_testxml
-
+source(path_to_my_token, encoding = 'UTF-8') # returns redcap_uri, token_dft2 and token_dft3
 
 path_texts_intro_local <- here::here('texts_intro')
 
