@@ -16,7 +16,7 @@
 ## 0. general elements --------------------------------------------------------
 ## . paths ---------------------------------------------------------
 
-path_to_my_token <- here::here(token_delphi_ft_this_project.R)
+path_to_my_token <- here::here('token_delphi_ft_this_project.R')
 ## if you see an error message : object 'token_delphi_ft_this_project.R' not found,
 ## open 'token_delphi_ft_this_project.R.example' and follow the instructions
 
