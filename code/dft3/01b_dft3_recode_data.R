@@ -1,6 +1,6 @@
 ## 01b_dft3_recode_data.R ----
 ## olivier.duperrex@unisante.ch
-## 2023-03-13
+## 2023-10-24
 
 
 ## NOTE in round 3 only type1 => simplified code
@@ -30,6 +30,54 @@ source(here::here('code', '000_parameters.R'), encoding = 'UTF-8')
 dft3_data_redcapr_raw[dft3_0_email %in% email_tester, dft3_0_email := NA]
 
 
+## .. Quick look at the dataset ----
+## another nice way to look at it
+## thanks to https://gt.albert-rapp.de/
+
+setcolorder(dft3_data_redcapr_raw, c('record_id', 'dft3_0_email'))
+names(dft3_data_redcapr_raw)
+
+
+cols_to_exclude <- grep("_email|_c$|_comment", names(dft3_data_redcapr_raw), value = TRUE)
+cols_to_exclude
+
+# foo1 <-
+#   dft3_data_redcapr_raw[, .SD, .SDcols = !cols_to_exclude] |>
+#   gtExtras::gt_plt_summary()
+# foo1
+
+# chk <- dft3_data_redcapr_raw[, .SD, .SDcols = !cols_to_exclude] |> names()
+# chk
+
+t0 <- 
+  dft3_data_redcapr_raw[, .SD, .SDcols = !cols_to_exclude]  |> 
+  gtsummary::tbl_summary()
+
+t0
+
+t0 |>
+  gtsummary::as_gt() |>
+  gt::tab_header(title = "Description of variables from dft3_data_redcapr_raw (without comments and email)") |>
+  gt::gtsave(filename = here::here('output', 'checks', 't0_raw_data_descriptive.docx'))
+
+## 1. recode some variables ----
+## .. chk_participants_raw ----
+
+# (id_to_check <- c(2,9))
+# (email_to_check <- dft3_data_redcapr_raw[record_id %in% id_to_check, unique(dft3_0_email)])
+
+## dft3_0_email tolower ----
+dft3_data_redcapr_raw |> sjmisc::frq(dft3_0_email) ## some have capital letters
+
+dft3_data_redcapr_raw[, dft3_0_email:= tolower(dft3_0_email)]  ## make all letters as lower
+
+dft3_data_redcapr_raw |> sjmisc::frq(dft3_0_email) ## all lower letters
+
+
+## .. replace email of mock record by NA ----
+dft3_data_redcapr_raw[dft3_0_email %in% tolower(email_tester), dft3_0_email := NA]
+
+dft3_data_redcapr_raw |> sjmisc::frq(dft3_0_email) # OK
 
 
 ## 2. dft3_metadata -------------------------------------------------
@@ -49,27 +97,14 @@ dft3_metadata[field_name %like%  '[a-d]_comment$',
               variable_label := paste0(stringr::word(field_label, 1, sep = "\\n"), 
                                        comment_txt_plural)]
 
-## various fields 
-## (not used here, but kept if these questions are asked in round 3, 
-## i.e someone who did not respond in round 2)
-## 
-# dft3_metadata[field_name == 'dft3_0_gender',    variable_label := label_gender_short]
-# dft3_metadata[field_name == 'dft3_0_job',       variable_label := label_job_short]
-# dft3_metadata[field_name == 'dft3_0_job_o',     variable_label := label_job_o_short]
-# 
-# dft3_metadata[field_name == 'dft3_0_joblang',   variable_label := label_joblang_short]
-# 
-# dft3_metadata[field_name == 'dft3_0_email',     variable_label := label_email_short]
-# dft3_metadata[field_name == 'dft3_0_conflicts', variable_label := label_conflicts_short]
-
-
 ## .. clean_variable_label ----
 dft3_metadata[, variable_label := clean_variable_label(variable_label, thankyou_string)]
 
 ## .. chk1 ----
 chk1 <- dft3_metadata[, .(field_name, variable_label, field_label)] 
 
-
+## 3. Rename variables ----
+## . not needed - kept in case a example ---
 # cols_0 <- dft3_metadata[field_name %like% '_0_', field_name]
 # cols_0
 # dft3_metadata[field_name == 'dft3_z_s3_type1', .(field_name, variable_label, field_label)]
@@ -170,7 +205,10 @@ if (anyDuplicated(dft3_data_redcapr_1[, dft3_0_email]) == 0) {
   id_duplicated <- dt1_dupes_yes[, record_id]
   id_duplicated
   
-  message_emails_duplicated <- glue::glue("there are {length(emails_duplicated)} duplicate emails in rows {list(id_duplicated)} : {list(emails_duplicated)} ")  
+  message_emails_duplicated <- glue::glue("there are {length(emails_duplicated)} duplicate emails:
+                                          - in rows {list(id_duplicated)}
+                                          - {list(emails_duplicated)} ")  
+  message_emails_duplicated
  
   
   ##  .. data_deduplicated ----
@@ -229,7 +267,7 @@ if (anyDuplicated(dft3_data_redcapr_1[, dft3_0_email]) == 0) {
   foo2[value %like% '; NA', .N]
   
   ## .. recode record_id : keep the latest ----
-  dt0[, record_id := get_last(record_id)]
+  dt0[, record_id := get_last(record_id), keyby = dft3_0_email]
   
   
   ## .. dft3_data_almost_clean -----------------------------------------------------
