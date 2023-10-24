@@ -1,6 +1,6 @@
 ## 000_parameters.R
 ## Prepared by olivier.duperrex@unisante.ch
-## Modified on 2023-05-08
+## Modified on 2023-10-24
 ## 
 ## Elements that can be modified according to the topic, the language,
 ## and desired adjustments on the output
@@ -32,7 +32,10 @@ path_texts_intro_server <- "//path/to/your/server/texts_intro" # replace with yo
 authors_text <- "Camille Velarde Crézé, Olivier Duperrex - Unisanté" # replace with yours
 
 ## . email_tester ---------------------------------------------------
-email_tester <- c('participant_27@some.email', 'tester_2@some.email')
+email_tester <- c(
+  'participant_27@some.email', 
+  'tester_2@some.email'
+  )
 
 
 ## . reports titles -----------------------------------------------
@@ -48,7 +51,7 @@ subtitle_participant <- "Individualised report"
 
 heading_situation <- "Situation and objectives"
 heading_method <- "Methods"
-heading_toc <- "Table of content {#toc}"
+heading_toc <- "Table of content {#toc}"  ## the #toc will provide links
 # heading_list_tables <- "Results tables"
 
 heading_participants_characteristics <- "Characteristics of participants"
@@ -152,8 +155,10 @@ thankyou_string <- stringr::regex("
 
 
 ## . sections: lists and labels ----
+## one per round in case they are different
 
-list_sections <- c('Z', 'A', 'B', 'C')
+list_sections_round_2 <- c('Z', 'A', 'B', 'C')
+list_sections_round_3 <- c('Z', 'A', 'B', 'C')
 
 label_section_Z_long  <- "Topic : long title"
 label_section_Z       <- "Preamble"
@@ -161,7 +166,9 @@ label_section_A       <- "Section A - title"
 label_section_B       <- "Section B - title"
 label_section_C       <- "Section C - title"
 
-list_labels_sections  <- c(label_section_Z_long, label_section_A, label_section_B, label_section_C)
+list_labels_sections_round_2  <- c(label_section_Z_long, label_section_A, label_section_B, label_section_C)
+list_labels_sections_round_3  <- c(label_section_Z_long, label_section_A, label_section_B, label_section_C)
+
 
 
 
@@ -176,12 +183,13 @@ comment_txt_singular  <- 'Comment'
 comment_txt_plural    <- 'Comments'
 
 ## . label short for various variables ----
-label_gender_short    <- 'Gender'
-label_job_short       <- 'Professional activity'
-label_job_o_short     <- 'Professional activity - préciser'
-label_joblang_short   <- 'Location of professional activity'
-label_email_short     <- 'email'
-label_conflicts_short <- "Conflict of interest"
+# Moved to point 5 - simpler way to add short labels
+# label_gender_short    <- 'Gender'
+# label_job_short       <- 'Professional activity'
+# label_job_o_short     <- 'Professional activity - préciser'
+# label_joblang_short   <- 'Location of professional activity'
+# label_email_short     <- 'email'
+# label_conflicts_short <- "Conflict of interest"
 
 label_agreement       <- 'Agreement'
 
@@ -226,58 +234,34 @@ other_please_short <- "Other"
 
 other_country <- "Another country"
 
-# . levels_type1 ----
-levels_type1_fr <- c(
-  "Désaccord total (1)" = 1,
-  "(2)"                 = 2,
-  "Désaccord (3)"       = 3,
-  "(4)"                 = 4,
-  "Neutre (5)"          = 5,
-  "(6)"                 = 6,
-  "Accord (7)"          = 7,
-  "(8)"                 = 8,
-  "Accord total (9)"    = 9
-)
-
-levels_type1_en <- c(
-  "Total disagreement (1)" = 1,
-  "(2)"                 = 2,
-  "Disagreement (3)"       = 3,
-  "(4)"                 = 4,
-  "Neutral (5)"          = 5,
-  "(6)"                 = 6,
-  "Agreement (7)"          = 7,
-  "(8)"                 = 8,
-  "Total agreement (9)"    = 9
-)
-
-
-levels_type1 <- levels_type1_en
-
-# labels_job <- c(
-#   "Job 1"   = 1,
-#   "Job 2"   = 2,
-#   "Job 3"   = 3,
-#   "Job 4"   = 4,
-#   "Job 5"    = 5,
-#   "Other Job" = 6
+## . levels_type1 ----
+# levels_type1_fr <- c(
+#   "Désaccord total (1)" = 1,
+#   "(2)"                 = 2,
+#   "Désaccord (3)"       = 3,
+#   "(4)"                 = 4,
+#   "Neutre (5)"          = 5,
+#   "(6)"                 = 6,
+#   "Accord (7)"          = 7,
+#   "(8)"                 = 8,
+#   "Accord total (9)"    = 9
+# )
+# 
+# levels_type1_en <- c(
+#   "Total disagreement (1)" = 1,
+#   "(2)"                 = 2,
+#   "Disagreement (3)"       = 3,
+#   "(4)"                 = 4,
+#   "Neutral (5)"          = 5,
+#   "(6)"                 = 6,
+#   "Agreement (7)"          = 7,
+#   "(8)"                 = 8,
+#   "Total agreement (9)"    = 9
 # )
 # 
 # 
-# labels_canton <- c(
-#   'Genève'       = 1,
-#   'Vaud'         = 2,
-#   'Valais'       = 3,
-#   'Neuchâtel'    = 4,
-#   'Jura'         = 5,
-#   'Fribourg'     = 6,
-#   'Bern'         = 7,
-#   'Autre canton' = 8,
-#   'Hors Suisse'  = 9
-# )
+# levels_type1 <- levels_type1_en
 
-
-# labels_0b_s1 <- 'Enoncé 1 : Les XXX représentent un problème pour la santé des populations.'
 
 
 ## . metadata : separator for comments in field_name ----
@@ -329,7 +313,7 @@ limits_gg <- c(min_scale_delphi - 1,
 
 ## 4. elements for executive summary --------------------------------
 title_overall <- "Templates REDCap : are they working?"  # for overall executive summary 
-subtitle_overall <- "Trying out the templates REDCap 'Fast-track Delphi'"
+subtitle_overall <- project_text
 
 ## . statement_numbers_in_dft2_to_keep_for_execsummary ----
 ## some of the statements of round 2 have been refined in dft3, so are not kept in executive summary
@@ -339,4 +323,100 @@ statement_numbers_in_dft2_to_keep_for_execsummary <- ""
 # statement_numbers_in_dft2_to_keep_for_execsummary <- c(4, 11, 18)
 
 
+## 5. define the descriptive variables by type  ----
+## . create a temporary table depending on which one is available
 
+if (exists('dft2_data_redcapr_raw') == TRUE) {
+  dt0 <- dft2_data_redcapr_raw
+} 
+
+if(exists('dft2_data_clean') == TRUE) {
+  dt0 <- dft2_data_clean
+}
+
+
+## . cols_0 : descriptive variables ----
+## .. START condition 1 ----
+if (exists('dt0') == TRUE) {
+  cols_0 <- grep("_0_", names(dt0), value = TRUE)
+  
+  cols_0
+  class(cols_0)
+  data.table(cols_0)
+  
+  ## . cols_0_subset_type3 : characteristics variables with value labels in type3 format ----
+  ## this will be added to the lookup table
+  cols_0_subset_type3 <- grep("__", cols_0, value = TRUE)
+  
+  if (length(cols_0_subset_type3) > 0) {  
+  cols_0_subset_type3_unique <-
+    cols_0_subset_type3 %>%
+    stringr::word(1, sep = '\\___') %>%
+    unique()
+  }
+
+  
+  ## . cols_0_subset_value_labels : initial variables with value labels ----
+  cols_0_subset_value_labels <- c(
+    'dft2_0_gender',
+    'dft2_0_job',
+    'dft2_0_joblang'
+  )
+   
+  
+  ## . create a data.table with short variable labels ----
+  ## note the added categorical variable 'dft2_0_nb_patients_cat'
+  
+  dt_labels_cols_0 <-
+    fread(
+      "
+  field_name, labels_cols_0_short
+  dft2_0_gender,   Gender
+  dft2_0_age,   Âge
+  dft2_0_job,   Professional activity
+  dft2_0_job_o,   Professional activity  please detail
+  dft2_0_joblang,   Location of professional activity
+  dft2_0_email,   email
+  dft2_0_conflicts,   Conflict of interest
+  dft2_0_conflicts_raw,   Conflict of interest - initial response
+"
+    )
+  
+  writexl::write_xlsx(dt_labels_cols_0,
+                      path = here::here('output', 'checks', 'dt_labels_cols_0.xlsx'))
+  save(dt_labels_cols_0,
+       file = here::here('output', 'RData', 'dt_labels_cols_0.RData'))
+  
+  
+  
+  ## . cols_0_subset_for_table_1 ----
+  ## used in '02a_dft2_prepare_tables_without_participant_id.R'
+  ## define here the variable to include in the Table 1
+  cols_0_subset_for_table_1 <-
+    c(cols_0_subset_value_labels,
+      # cols_0_subset_continuous_cat,
+      cols_0_subset_type3)
+  
+  cols_0_subset_for_table_1
+  
+  ## . order_dft2_0_table_1 ----
+  ## used in '02a_dft2_prepare_tables_without_participant_id.R'
+  ## define here the order in which the variables will be listed
+  order_dft2_0_table_1 <- c(
+    'dft2_0_gender',
+    'dft2_0_job',
+    'dft2_0_joblang'
+  )
+  order_dft2_0_table_1
+  
+}
+## .. END condition 1 ----
+
+caption_table_1 <- "
+NB: Proportions are calculated on number of participants.
+* Plusieurs réponses possibles - la somme des proportions peut donc dépasser le 100%" 
+
+
+## 6. conflicts_keywords ----
+## Need to update according to the responses - either in 01b_ft2_recode_data.R or 'output/checks/chk_dft2_0_conflicts.xlsx'
+conflicts_keywords <- 'aucun|0|none|pas de|ras'
