@@ -1,6 +1,6 @@
 ## 00_functions.R
 ## olivier.duperrex@unisante.ch
-## 2023-03-13
+## 2023-10-24
 ## 
 ## 
 ## 
@@ -679,7 +679,7 @@ cols_for_minibar_type2_3_generic <-
 
 
 ## cols_for_comments_participant ----
-cols_for_comments_participant <- c('item') # , 'responses_participant'
+cols_for_comments_participant <- c('item', 'response') # , 'responses_participant'
 
 ## cols_for_comments_participant_type1 ----
 # cols_for_comments_participant_type1 <- c('item', 'value_labels') # , 'responses_participant'
@@ -999,10 +999,12 @@ create_flextable_comments_participant <- function(dt) {
   dt %>%
     flextable::flextable(col_keys = cols_for_comments_participant) %>%
     set_header_labels(
-      item   = label_comment
+      item   = label_comment,
+      response = label_response
     ) %>%
     # align(part = 'all', j = cols_for_comments_participant[-1], align = 'center') %>%
-    width(j = 1, width = 5)
+    width(c("item", 'response'), 
+          width = c(5, 2))
 }
 
 
