@@ -91,6 +91,8 @@ cat(crayon::green(message_02,'\n '))
 
 ## . ----
 ### . publish Rmd ----
+timestamp_generic_report_start <- lubridate::now() 
+
 ### .. dft2_report_generic.Rmd ----
 input <-  "analysis/dft2/dft2_report_generic.Rmd"
 
@@ -100,6 +102,18 @@ output_file <- here::here('output', 'reports', 'dft2',
 rmarkdown::render(
   input = input,
   output_file = output_file)
+
+timestamp_generic_report_done <- lubridate::now() 
+# |> as.ITime()
+class(timestamp_generic_report_done)
+
+
+(duration <-  difftime(timestamp_generic_report_done, timestamp_generic_report_start, units = "secs"))
+
+# as.numeric(duration, units = "mins")
+message_03 <- glue::glue('{lubridate::now()} => generic report created in {round(duration, 1)} seconds
+                         in ../output/reports/dft2/')
+cat(crayon::green(message_03,'\n '))
 
 
 ### .. 05_dft2_to_render_individual_reports.R ------------------------------

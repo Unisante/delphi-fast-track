@@ -1,5 +1,5 @@
 ## 0_run_ME_dft3.R -------------------------------------------------------
-## 2023-02-15
+## 2023-10-24
 ## olivier.duperrex@unisante.ch
 ## 
 ## This script will : 
@@ -91,6 +91,8 @@ cat(crayon::green(message_02,'\n '))
 
 ## . ----
 ## . publish Rmd ----
+timestamp_generic_report_start <- lubridate::now() 
+
 ### .. dft3_report_generic.Rmd ------------------------------------------
 input <-  "analysis/dft3/dft3_report_generic.Rmd"
 
@@ -107,3 +109,40 @@ rmarkdown::render(
 ### ### TAKES time ... have a coffee, a walk, a nice chat with someone ...
 source(here::here('code', 'dft3', '05_dft3_to_render_individual_reports.R'),
        encoding = 'UTF-8')
+
+### . 05_dft3_to_render_individual_reports.R ------------------------------
+### ### TAKES time ... have a coffee, a walk, a nice chat with someone ...
+source(here::here('code', 'dft3', '05_dft3_to_render_individual_reports.R'),
+       encoding = 'UTF-8')
+
+## >>  .. table for individual emails << ----
+load(here::here('data', 'dft3', 'dft3_data_clean.RData'))
+
+dir_with_reports <- here::here('output', 'reports', 'dft3', 'report_by_participant')
+
+dir_with_reports
+
+foo1 <- 
+  dir_with_reports |> 
+  fs::dir_info() |> 
+  setDT()
+
+(date_produced <- foo1[, max(modification_time)] |> as.IDate())
+
+dft3_table_for_sending_individual_reports <- 
+  dft3_data_clean[, .(record_id, dft3_0_email)]
+
+dft3_table_for_sending_individual_reports[, path_to_attachment := paste0(
+  dir_with_reports,
+  "/",
+  "dft3_report_participant_",
+  record_id,
+  "_",
+  date_produced,
+  ".docx"
+)]
+
+dft3_table_for_sending_individual_reports %>%
+  writexl::write_xlsx(path = here::here('output', 'checks', 'dft3_table_for_sending_individual_reports.xlsx'))
+
+
