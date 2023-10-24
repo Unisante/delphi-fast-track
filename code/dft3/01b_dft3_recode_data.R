@@ -241,7 +241,7 @@ if (anyDuplicated(dft3_data_redcapr_1[, dft3_0_email]) == 0) {
   dt0 <- data_deduplicated[record_id %like% ';',]
   
   ### .. cols_to_recode ----
-  ### # need to be modified if also type2 or type3 questions - see 01b_dft2_recode_data.R
+  ### # need to be modified if also type2 or type3 questions - see 01b_dft3_recode_data.R
   cols_to_recode <- c(cols_type1) 
   
   ## for cols_type1 we get the last value that is not NA
@@ -413,6 +413,17 @@ purrr::walk2(dft3_zzz_type1$gg, dft3_zzz_type1$img_path, function(gg, path) {
   dev.off()
 })
 
+## .. Quick look at the dataset ----
+t0_clean <- 
+  dft3_data_clean[, .SD, .SDcols = !cols_to_exclude]  |> 
+  gtsummary::tbl_summary()
+
+t0_clean
+
+t0_clean |>
+  gtsummary::as_gt() |>
+  gt::tab_header(title = "Descrpition of variables from dft3_data_clean (without comments and email)") |>
+  gt::gtsave(filename = here::here('output', 'checks', 't0_clean_data_descriptive.docx'))
 
 ## 10. save ----------------------------------------------------------
 
