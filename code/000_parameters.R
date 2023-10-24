@@ -362,7 +362,7 @@ if (exists('dt0') == TRUE) {
     'dft2_0_job',
     'dft2_0_joblang'
   )
-   
+  
   
   ## . create a data.table with short variable labels ----
   ## note the added categorical variable 'dft2_0_nb_patients_cat'
@@ -372,9 +372,8 @@ if (exists('dt0') == TRUE) {
       "
   field_name, labels_cols_0_short
   dft2_0_gender,   Gender
-  dft2_0_age,   Âge
   dft2_0_job,   Professional activity
-  dft2_0_job_o,   Professional activity  please detail
+  dft2_0_job_o,   Professional activity - details
   dft2_0_joblang,   Location of professional activity
   dft2_0_email,   email
   dft2_0_conflicts,   Conflict of interest
