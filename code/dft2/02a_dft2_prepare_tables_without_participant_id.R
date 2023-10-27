@@ -384,27 +384,19 @@ if (length(cols_type2) > 0) {
   
   
   
-  ### 4.7 order rows according to results ----
-  ## this will sort the table by ... and keep no opinion and other at the end
+   ### 4.7 order rows according to results ----
+  ## this will sort the table by variables and keep 'no opinion' and 'other' at the end
   names(dft2_type2_zz1)
   
-  ## this worked at one point in the development ...
-  # dft2_type2_zz1 <- dft2_type2_zz1[order(variable,
-  #                                        value_labels %like% no_op_short,
-  #                                        value_labels %like% other_please_short,
-  #                                        -prop)]
-  
-  ## ... but this is what is working correctly now
-  dft2_type2_zz1 <- dft2_type2_zz1[order(
-    variable,
-    ## ... variable name
-    value_labels %like% no_op_short,
-    ## ... no opinion: no then yes
-    value_labels %like% other_please_short,
-    ## ... other : no then yes-prop                                    ## ... decreasing proportion
-  )]
+  ## the ordering is sequential : variable, then no_op_short, then  other_please_short, and finally the reverse of proportions
+
+  dft2_type2_zz1 <- dft2_type2_zz1[order(variable,
+                                         value_labels %like% no_op_short,
+                                         value_labels %like% other_please_short,
+                                         -prop)]
   
   dft2_type2_zz1[, item := as.numeric(item)]
+
 }
 ## . ----
 ## 5. > cols_type3 --------------------------------------------------
@@ -485,26 +477,15 @@ if (length(cols_type3) > 0) {
   
   
   ### 5.7 order rows according to results ----
-  ### this will sort the table by ... and keep no opinion and other at the end
-  
-  ## this worked at one point in the development ...
-  # dft2_type3_zz1 <- dft2_type3_zz1[order(
-  #   variable,                               ## ... variable name
-  #   -prop,                                  ## ... decreasing proportion
-  #   value_labels %like% no_op_short,        ## ... no opinion: no then yes
-  #   value_labels %like% other_please_short  ## ... other : no then yes
-  #   )]
-  
-  ## ... but this is what is working correctly now
+  ## this will sort the table by variables and keep 'no opinion' and 'other' at the end
+  ## the ordering is sequential : variable, then no_op_short, then  other_please_short, and finally the reverse of proportions
+
   dft2_type3_zz1 <- dft2_type3_zz1[order(
-    variable,
-    ## ... variable name
-    value_labels %like% no_op_short,
-    ## ... no opinion: no then yes
-    value_labels %like% other_please_short,
-    ## ... other : no then yes-prop                                    ## ... decreasing proportion
-  )]
-  
+    variable,                               ## ... variable name
+    value_labels %like% no_op_short,        ## ... no opinion: no then yes
+    value_labels %like% other_please_short  ## ... other : no then yes
+    -prop,                                  ## ... decreasing proportion
+    )]
   
 }
 

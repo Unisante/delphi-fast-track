@@ -78,7 +78,7 @@ if (length(selected_cols) > 0) {
       lookup_final[variable == selected_comments[i], variable_label]
     
     dt_comments_m[statement_number == selected_statement_number,] %>%
-      create_flextable_comments_participant() %>%
+      create_flextable_comments_participant_type1() %>%
       flextable_to_rmd()
     
     # print two empty lines
