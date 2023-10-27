@@ -5,7 +5,7 @@
 
 ## NOTE in round 3 only type1 => simplified code
 
-## 1. Loading -----------------------------------------------------
+## 0. Loading -----------------------------------------------------
 here::here()
 
 ## .. load libraries ----
@@ -170,6 +170,7 @@ dft3_lookup_final[!(variable_label %like% 'SECTION'),
              variable_label := stringr::str_replace_all(variable_label, ' ;', ' -')]
 
 dft3_lookup_final[, variable_label := stringr::str_replace_all(variable_label, '"', '')]
+
 
 ## 6. clean and deduplicate by collapsing ---------------------------
 ### 6.a  first get rid of email that are empty ----

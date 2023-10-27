@@ -35,7 +35,6 @@ length(list_record_id)
 
 # list_record_id <- head(list_record_id, n = 4)
 # list_record_id <- tail(list_record_id, n = 10)
-# list_record_id
 
 list_record_id
 

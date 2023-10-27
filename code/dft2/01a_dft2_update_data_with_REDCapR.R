@@ -134,7 +134,6 @@ if (length(cols_0) > 0) {
   
 }
 
-
 ## .. chk_type1_raw ----
 if (length(cols_type1) > 0) {
   chk_type1_raw <-

@@ -82,12 +82,12 @@ if (length(cols_type2) > 0) {
   
   
   dft2_type2_zz1_id_selected <-
-    dft2_type2_zz1[dft2_type2_zz0_id_selected, 
-                   on = .(variable, item), 
+    dft2_type2_zz1[dft2_type2_zz0_id_selected,
+                   on = .(variable, item),
                    responses_participant := responses_participant
-                   ][order(variable,             
-                           item %like% "Pas d'avis",
-                           -prop)] # here we reorder to make sure they come out in descending order
+    ][order(variable,
+            item %like% "Pas d'avis",
+            -prop)] # here we reorder to make sure they come out in descending order
   
   dft2_type2_zz1_id_selected[, responses_participant := fifelse(responses_participant == 1, 'X', '')]
   # dft2_type2_zz1_id_selected

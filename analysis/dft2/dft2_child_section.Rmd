@@ -92,7 +92,7 @@ if (length(selected_cols) > 0) {
 ```
 
 
-  
+
 ```{r results='asis'}
 
 selected_type <- 'type2'
@@ -118,7 +118,7 @@ if (length(selected_cols) > 0) {
     ## create the level 3 title
     cat(glue::glue("\n### {statement_txt} {selected_statement_number}"),
         "\n")
-    
+
     ## create table with results and print as rmd
     if (report_type == 'repgen') {
       source(
@@ -247,3 +247,4 @@ if (selected_section == 'Z') {
 dt_comments_m[variable == selected_section_comment] %>% create_flextable_comments_participant()
 
 ```
+

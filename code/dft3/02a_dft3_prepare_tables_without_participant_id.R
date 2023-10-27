@@ -1,6 +1,6 @@
 ## 02a_dft3_prepare_tables_without_participant_id.R
 ## olivier.duperrex@unisante.ch
-## 2022-10-24
+## 2023-10-24
 
 ## this script will generate the tables and graphs without individual data
 ## in principle, only type 1
@@ -241,6 +241,7 @@ dft3_dt_comments_m[dft3_dt_type1_m,
 
 dft3_dt_comments_m <- 
   dft3_dt_comments_m[order(variable_commented, response)]
+
 
 ## . ----
 ## 4.1 save RData ---------------------------------------------------

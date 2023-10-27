@@ -609,9 +609,6 @@ dft2_lookup_value_labels_intermediate <- data.table::rbindlist(dft2_lookup_value
 # dft2_data_clean[, .(dft2_0_gender, dft2_0_job, dft2_0_joblang)] %>% sjmisc::frq()
 
 
-
-
-
 ## . dft2_lookup_value_labels_final ----
 ## rbind if 'dft2_value_labels_manual' exists - this manual table could be created in 000_parameters.R in case of creating a new categorical variable
 

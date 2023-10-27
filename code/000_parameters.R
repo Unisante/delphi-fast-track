@@ -1,6 +1,6 @@
 ## 000_parameters.R
 ## Prepared by olivier.duperrex@unisante.ch
-## Modified on 2023-10-24
+## Modified on 2023-10-25
 ## 
 ## Elements that can be modified according to the topic, the language,
 ## and desired adjustments on the output
@@ -160,6 +160,7 @@ thankyou_string <- stringr::regex("
 list_sections_round_2 <- c('Z', 'A', 'B', 'C')
 list_sections_round_3 <- c('Z', 'A', 'B', 'C')
 
+
 label_section_Z_long  <- "Topic : long title"
 label_section_Z       <- "Preamble"
 label_section_A       <- "Section A - title"
@@ -169,6 +170,8 @@ label_section_C       <- "Section C - title"
 list_labels_sections_round_2  <- c(label_section_Z_long, label_section_A, label_section_B, label_section_C)
 list_labels_sections_round_3  <- c(label_section_Z_long, label_section_A, label_section_B, label_section_C)
 
+list_sections_overall <- list_sections_round_2
+list_labels_sections_overall <- list_labels_sections_round_2
 
 
 
@@ -234,33 +237,33 @@ other_please_short <- "Other"
 
 other_country <- "Another country"
 
-## . levels_type1 ----
-# levels_type1_fr <- c(
-#   "Désaccord total (1)" = 1,
-#   "(2)"                 = 2,
-#   "Désaccord (3)"       = 3,
-#   "(4)"                 = 4,
-#   "Neutre (5)"          = 5,
-#   "(6)"                 = 6,
-#   "Accord (7)"          = 7,
-#   "(8)"                 = 8,
-#   "Accord total (9)"    = 9
-# )
-# 
-# levels_type1_en <- c(
-#   "Total disagreement (1)" = 1,
-#   "(2)"                 = 2,
-#   "Disagreement (3)"       = 3,
-#   "(4)"                 = 4,
-#   "Neutral (5)"          = 5,
-#   "(6)"                 = 6,
-#   "Agreement (7)"          = 7,
-#   "(8)"                 = 8,
-#   "Total agreement (9)"    = 9
-# )
-# 
-# 
-# levels_type1 <- levels_type1_en
+# . levels_type1 ----
+levels_type1_fr <- c(
+  "Désaccord total (1)" = 1,
+  "(2)"                 = 2,
+  "Désaccord (3)"       = 3,
+  "(4)"                 = 4,
+  "Neutre (5)"          = 5,
+  "(6)"                 = 6,
+  "Accord (7)"          = 7,
+  "(8)"                 = 8,
+  "Accord total (9)"    = 9
+)
+
+levels_type1_en <- c(
+  "Total disagreement (1)" = 1,
+  "(2)"                 = 2,
+  "Disagreement (3)"       = 3,
+  "(4)"                 = 4,
+  "Neutral (5)"          = 5,
+  "(6)"                 = 6,
+  "Agreement (7)"          = 7,
+  "(8)"                 = 8,
+  "Total agreement (9)"    = 9
+)
+
+
+levels_type1 <- levels_type1_en
 
 
 
