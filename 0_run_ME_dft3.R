@@ -50,10 +50,7 @@ load(here::here('data', 'redcap_data_raw', 'dft3_data_redcapr_raw.RData'))
 ### .. number of rows with an email ----
 dft3_data_redcapr_raw[!is.na(dft3_0_email), .N]
 
-### ... emails_duplicated ----
-(emails_duplicated <-
-   dft3_data_redcapr_raw[, if (.N > 1L)
-     .(N = .N), tolower(dft3_0_email)])
+### ... dt_emails_duplicated ----
 
 (dt_emails_duplicated <-
     dft3_data_redcapr_raw[, if (.N > 1L)
@@ -125,6 +122,8 @@ rmarkdown::render(
 ### ### TAKES time ... have a coffee, a walk, a nice chat with someone ...
 source(here::here('code', 'dft3', '05_dft3_to_render_individual_reports.R'),
        encoding = 'UTF-8')
+
+
 
 ## >>  .. table for individual emails << ----
 load(here::here('data', 'dft3', 'dft3_data_clean.RData'))
