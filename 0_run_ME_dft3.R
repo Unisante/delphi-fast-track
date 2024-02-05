@@ -51,10 +51,13 @@ load(here::here('data', 'redcap_data_raw', 'dft3_data_redcapr_raw.RData'))
 dft3_data_redcapr_raw[!is.na(dft3_0_email), .N]
 
 ### ... emails_duplicated ----
-(emails_duplicated <- dft3_data_redcapr_raw[, if (.N > 1L) .(N = .N), tolower(dft3_0_email)])
+(emails_duplicated <-
+   dft3_data_redcapr_raw[, if (.N > 1L)
+     .(N = .N), tolower(dft3_0_email)])
 
-(dt_emails_duplicated <- dft3_data_redcapr_raw[ , if (.N > 1L) .(record_id = record_id), keyby = .(tolower(dft3_0_email))])
-
+(dt_emails_duplicated <-
+    dft3_data_redcapr_raw[, if (.N > 1L)
+      .(record_id = record_id), keyby = .(tolower(dft3_0_email))])
 
 ## . ----
 ## . recode and summary tables  ----
@@ -65,11 +68,14 @@ source(here::here('code', 'dft3', '01b_dft3_recode_data.R'),
 ### .. total_participants_round_3 ----
 (total_participants_round_3 <- dft3_data_clean[,.N])
 
-(total_participants_round_3_complete <- dft3_data_clean[round_3_equestionnaire_complete > 0,.N])
+(total_participants_round_3_complete <- 
+    dft3_data_clean[round_3_equestionnaire_complete > 0,.N])
 
-(total_participants_round_3_NA_n <- dft3_data_clean[is.na(round_3_equestionnaire_complete) | round_3_equestionnaire_complete == 0,.N])
+(total_participants_round_3_NA_n <- 
+    dft3_data_clean[is.na(round_3_equestionnaire_complete) | round_3_equestionnaire_complete == 0,.N])
 
-dt_participants_round_3_NA <- dft3_data_clean[is.na(round_3_equestionnaire_complete) | round_3_equestionnaire_complete == 0, ]
+dt_participants_round_3_NA <-
+  dft3_data_clean[is.na(round_3_equestionnaire_complete) | round_3_equestionnaire_complete == 0, ]
 
 (dt_emails_duplicated_after_cleaning <-
     dft3_data_clean[, if (.N > 1L)
@@ -114,11 +120,6 @@ rmarkdown::render(
   output_file = output_file)
 
 
-
-### . 05_dft3_to_render_individual_reports.R ------------------------------
-### ### TAKES time ... have a coffee, a walk, a nice chat with someone ...
-source(here::here('code', 'dft3', '05_dft3_to_render_individual_reports.R'),
-       encoding = 'UTF-8')
 
 ### . 05_dft3_to_render_individual_reports.R ------------------------------
 ### ### TAKES time ... have a coffee, a walk, a nice chat with someone ...
