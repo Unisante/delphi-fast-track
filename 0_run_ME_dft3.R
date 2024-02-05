@@ -56,6 +56,20 @@ dft3_data_redcapr_raw[!is.na(dft3_0_email), .N]
     dft3_data_redcapr_raw[, if (.N > 1L)
       .(record_id = record_id), keyby = .(tolower(dft3_0_email))])
 
+## >> . checks --------------------------------------------------------
+
+## .. chk_type1_raw ----
+chk_type1_raw <-
+  dft3_data_redcapr_raw[, .SD, .SDcols = patterns('_type1$'), keyby = record_id] %>%
+  data.table::transpose(keep.names = 'variable')
+
+class(chk_type1_raw)
+chk_type1_raw
+
+chk_type1_raw %>%
+  writexl::write_xlsx(path = here::here('output', 'checks', 'chk_dft3_type1_raw.xlsx'))
+
+
 ## . ----
 ## . recode and summary tables  ----
 ### ..  01b_dft3_recode_data.R ----
