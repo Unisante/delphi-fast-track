@@ -1,5 +1,5 @@
 ## 0_run_ME_dft3.R -------------------------------------------------------
-## 2023-10-24
+## 2023-11-07
 ## olivier.duperrex@unisante.ch
 ## 
 ## This script will : 
@@ -51,9 +51,9 @@ load(here::here('data', 'redcap_data_raw', 'dft3_data_redcapr_raw.RData'))
 dft3_data_redcapr_raw[!is.na(dft3_0_email), .N]
 
 ### ... emails_duplicated ----
-(emails_duplicated <- dft3_data_redcapr_raw[, if (.N > 1L) .(N = .N), dft3_0_email])
-(dt_emails_duplicated <- dft3_data_redcapr_raw[ , if (.N > 1L) .(record_id = record_id), keyby = .(dft3_0_email)])
+(emails_duplicated <- dft3_data_redcapr_raw[, if (.N > 1L) .(N = .N), tolower(dft3_0_email)])
 
+(dt_emails_duplicated <- dft3_data_redcapr_raw[ , if (.N > 1L) .(record_id = record_id), keyby = .(tolower(dft3_0_email))])
 
 
 ## . ----
@@ -64,6 +64,16 @@ source(here::here('code', 'dft3', '01b_dft3_recode_data.R'),
 
 ### .. total_participants_round_3 ----
 (total_participants_round_3 <- dft3_data_clean[,.N])
+
+(total_participants_round_3_complete <- dft3_data_clean[round_3_equestionnaire_complete > 0,.N])
+
+(total_participants_round_3_NA_n <- dft3_data_clean[is.na(round_3_equestionnaire_complete) | round_3_equestionnaire_complete == 0,.N])
+
+dt_participants_round_3_NA <- dft3_data_clean[is.na(round_3_equestionnaire_complete) | round_3_equestionnaire_complete == 0, ]
+
+(dt_emails_duplicated_after_cleaning <-
+    dft3_data_clean[, if (.N > 1L)
+      .(record_id = record_id), keyby = .(tolower(dft3_0_email))])
 
 
 ## .. 01c_dft3_define_cols.R ----
@@ -143,6 +153,12 @@ dft3_table_for_sending_individual_reports[, path_to_attachment := paste0(
 )]
 
 dft3_table_for_sending_individual_reports %>%
-  writexl::write_xlsx(path = here::here('output', 'checks', 'dft3_table_for_sending_individual_reports.xlsx'))
+  writexl::write_xlsx(
+    path = here::here(
+      'output',
+      'checks',
+      'dft3_table_for_sending_individual_reports.xlsx'
+    )
+  )
 
 
