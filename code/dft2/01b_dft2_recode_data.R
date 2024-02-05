@@ -730,3 +730,11 @@ save(
 )
 
 
+dft2_data_clean |>
+  writexl::write_xlsx(path = here::here('output', 'checks', 'dft2_data_clean.xlsx'))
+
+dft2_lookup_final |>
+  writexl::write_xlsx(path = here::here('output', 'checks', 'dft2_lookup_final.xlsx'))
+
+dft2_lookup_value_labels_final |>
+  writexl::write_xlsx(path = here::here('output', 'checks', 'dft2_lookup_value_labels_final.xlsx'))

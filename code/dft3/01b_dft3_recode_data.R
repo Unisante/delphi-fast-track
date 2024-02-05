@@ -466,3 +466,9 @@ save(dft3_lookup_final, file = here::here('data', 'dft3', 'dft3_lookup_final.RDa
 
 
 
+dft3_data_clean |>
+  writexl::write_xlsx(path = here::here('output', 'checks', 'dft3_data_clean.xlsx'))
+
+dft3_lookup_final |>
+  writexl::write_xlsx(path = here::here('output', 'checks', 'dft3_lookup_final.xlsx'))
+
