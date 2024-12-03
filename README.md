@@ -40,6 +40,10 @@ Please go through the [Fast-track Delphi: user guide](https://github.com/Unisant
 
 -   reports : [**`officedown`**](https://ardata-fr.github.io/officeverse/officedown-for-word.html) which builds on [**`bookdown`**](https://pkgs.rstudio.com/bookdown/), and [**`flextable`**](https://davidgohel.github.io/flextable/) from the [**`officeverse`**](https://ardata-fr.github.io/officeverse/index.html)
 
+## Related publications
+
+See [Fast-track Delphi: user guide](https://github.com/Unisante/delphi-fast-track-user-guide).
+
 
 ## Citation
 
