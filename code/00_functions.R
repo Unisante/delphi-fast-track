@@ -1,6 +1,7 @@
 ## 00_functions.R
 ## olivier.duperrex@unisante.ch
-## 2023-10-27
+## 2023-10-27 
+## updated 2024-12-02 : change in flextable::flextable() required adding 'use_labels = FALSE'
 ## 
 ## 
 ## 
@@ -799,7 +800,8 @@ create_flextable_table1 <- function(dt,
 #' @param dt Data.table containing summary elements and 
 create_flextable_type_1_exec_summary <- function(dt) {
   dt %>%
-    flextable::flextable(col_keys = cols_for_type_1_exec_summary) %>% 
+    flextable::flextable(col_keys = cols_for_type_1_exec_summary,
+                         use_labels = FALSE) %>% 
         
     line_spacing(space = 1.2, part = "all") %>%
     
@@ -844,7 +846,8 @@ create_flextable_type_1_exec_summary <- function(dt) {
 ## create_flextable_histo_box_type_1_generic ------------------------
 create_flextable_histo_box_type_1_generic <- function(dt) {
   dt %>%
-    flextable::flextable(col_keys = cols_for_histo_box_type1_generic) %>%
+    flextable::flextable(col_keys = cols_for_histo_box_type1_generic,
+                         use_labels = FALSE) %>%
     # qflextable::flextable(col_keys = c('var_label', 'responses', 'stats', 'histo_box')) %>%
     flextable::compose(j = 'agreement_icon',
                        value = as_paragraph(as_chunk(
@@ -916,7 +919,8 @@ create_flextable_histo_box_type_1_generic <- function(dt) {
 ## create_flextable_histo_box_type_1_participant --------------------
 create_flextable_histo_box_type_1_participant <- function(dt) {
   dt %>%
-    flextable::flextable(col_keys = cols_for_histo_box_type1_participant) %>%
+    flextable::flextable(col_keys = cols_for_histo_box_type1_participant,
+                         use_labels = FALSE) %>%
     # qflextable::flextable(col_keys = c('var_label', 'responses', 'stats', 'histo_box')) %>%
     flextable::compose(j = 'agreement_icon',
                        value = as_paragraph(as_chunk(
@@ -998,7 +1002,8 @@ create_flextable_histo_box_type_1_participant <- function(dt) {
 ## create_flextable_comments_participant ----------------------------
 create_flextable_comments_participant <- function(dt) {
   dt %>%
-    flextable::flextable(col_keys = cols_for_comments_participant) %>%
+    flextable::flextable(col_keys = cols_for_comments_participant,
+                         use_labels = FALSE) %>%
     set_header_labels(item   = label_comment
                       # , response = label_response
     ) %>%
@@ -1014,7 +1019,8 @@ create_flextable_comments_participant <- function(dt) {
 ## create_flextable_comments_participant_type1 ----------------------
 create_flextable_comments_participant_type1 <- function(dt) {
   dt %>%
-    flextable::flextable(col_keys = cols_for_comments_participant_type1) %>%
+    flextable::flextable(col_keys = cols_for_comments_participant_type1,
+                         use_labels = FALSE) %>%
     set_header_labels(item   = label_comment,
                       response = label_response) %>%
     # align(part = 'all', j = cols_for_comments_participant[-1], align = 'center') %>%
@@ -1029,7 +1035,8 @@ create_flextable_comments_participant_type1 <- function(dt) {
 create_flextable_minibar_type_2_3_generic <- function(dt) {
   type <- dt[, unique(type)]
   dt %>%
-    flextable::flextable(col_keys = cols_for_minibar_type2_3_generic) %>%
+    flextable::flextable(col_keys = cols_for_minibar_type2_3_generic,
+                         use_labels = FALSE) %>%
     # qflextable() %>%
     flextable::compose(j = "minibar",
                        value = as_paragraph(value = minibar(
@@ -1080,7 +1087,8 @@ create_flextable_minibar_type_2_3_generic <- function(dt) {
 create_flextable_minibar_type_2_3_participant <- function(dt) {
   type <- dt[, unique(type)]
   dt %>%
-    flextable::flextable(col_keys = cols_for_minibar_type2_3_participant) %>%
+    flextable::flextable(col_keys = cols_for_minibar_type2_3_participant,
+                         use_labels = FALSE) %>%
     # qflextable() %>%
     flextable::compose(j = "minibar",
                        value = as_paragraph(value = minibar(
